@@ -1,6 +1,7 @@
 // Переменные для файла
 $widthSite: 1200px;
 $colorMainSite: #8a2be2;
+$gap: 16px;
 
 * {
     margin: 0;
@@ -14,4 +15,13 @@ $colorMainSite: #8a2be2;
 
 .container__color {
     color: $colorMainSite;
+}
+
+.nav {
+    display: flex;
+    gap: $gap;
+
+    &__link {
+        text-decoration: none;
+    }
 }
