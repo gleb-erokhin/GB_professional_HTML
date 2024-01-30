@@ -2,6 +2,7 @@
 $widthSite: 1200px;
 $colorMainSite: #8a2be2;
 $gap: 16px;
+$border: 1px solid #000;
 
 * {
     margin: 0;
@@ -23,5 +24,15 @@ $gap: 16px;
 
     &__link {
         text-decoration: none;
+    }
+}
+
+.content {
+    display: flex;
+    gap: $gap;
+
+    &__item {
+        width: $widthSite / 4;
+        border: $border;
     }
 }

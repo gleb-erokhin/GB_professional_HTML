@@ -18,4 +18,13 @@
 }
 .nav__link {
   text-decoration: none;
+}
+
+.content {
+  display: flex;
+  gap: 16px;
+}
+.content__item {
+  width: 300px;
+  border: 1px solid #000;
 }/*# sourceMappingURL=style.css.map */
