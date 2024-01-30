@@ -32,6 +32,7 @@ $border: 1px solid #000;
     gap: $gap;
 
     &__item {
+        height: 200px;
         width: $widthSite / 4;
         border: $border;
     }
