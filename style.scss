@@ -1,0 +1,17 @@
+// Переменные для файла
+$widthSite: 1200px;
+$colorMainSite: #8a2be2;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: $widthSite;
+}
+
+.container__color {
+    color: $colorMainSite;
+}
