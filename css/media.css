@@ -24,11 +24,11 @@
         width: 50%;
     }
 
-    .hero-text-head {
+    .hero-text__head {
         font-size: 44px;
     }
 
-    .hero-text-midle {
+    .hero-text__midle {
         font-size: 24px;
     }
 
@@ -58,11 +58,11 @@
         width: 50%;
     }
 
-    .hero-text-head {
+    .hero-text__head {
         font-size: 44px;
     }
 
-    .hero-text-midle {
+    .hero-text__midle {
         font-size: 24px;
     }
 
@@ -160,11 +160,11 @@
 }
 
 @media (max-width: 375px) {
-    .hero-text-head {
+    .hero-text__head {
         font-size: 38px;
     }
 
-    .hero-text-midle {
+    .hero-text__midle {
         font-size: 20px;
     }
 
