@@ -476,7 +476,7 @@ body {
     gap: 30px;
 }
 
-.subscrybe-paragraf {
+.subscrybe-comment__paragraf {
     color: #222224;
     text-align: center;
     font-family: 'Lato';
@@ -484,7 +484,7 @@ body {
     max-width: 360px;
 }
 
-.subscrybe-comment-span {
+.subscrybe-comment__span {
     color: #222224;
     font-family: 'Lato';
     font-size: 20px;
