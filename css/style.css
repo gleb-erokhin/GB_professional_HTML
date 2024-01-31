@@ -234,13 +234,13 @@ body {
     gap: 6px;
 }
 
-.products-title-head {
+.products-title__head {
     color: #222;
     font-family: 'Lato';
     font-size: 30px;
 }
 
-.products-title-text {
+.products-title__text {
     color: #9F9F9F;
     font-family: 'Lato';
     font-size: 14px;
