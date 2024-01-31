@@ -253,7 +253,7 @@ body {
     gap: 24px;
 }
 
-.products-img {
+.products-item__img {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -266,7 +266,7 @@ body {
             justify-content: center;
 }
 
-.products-img:hover {
+.products-item__img:hover {
     background-color: rgba(58, 56, 56, 0.86);
     -webkit-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in;
@@ -274,7 +274,7 @@ body {
 }
 
 /* темный фон, карточка add button */
-.products-card-img {
+.products-card__img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
@@ -283,7 +283,7 @@ body {
     z-index: -1;
 }
 
-.products-card-button {
+.products-card__button {
     position: absolute;
     text-decoration: none;
 
@@ -310,7 +310,7 @@ body {
     display: none;
 }
 
-.products-item:hover .products-card-button {
+.products-item:hover .products-card__button {
     display: initial;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -320,13 +320,13 @@ body {
             align-items: center;
 }
 
-.products-card-button:hover {
+.products-card__button:hover {
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1);
 }
 
-.products-item-block {
+.products-item__block {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -339,20 +339,20 @@ body {
     background-color: #F8F8F8;
 }
 
-.products-item-head {
+.products-item__head {
     color: #000;
     font-family: 'Lato';
     font-size: 13px;
 }
 
-.products-item-paragraf {
+.products-item__paragraf {
     color: #5D5D5D;
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 300;
 }
 
-.products-item-price {
+.products-item__price {
     color: #F16D7F;
     font-family: 'Lato';
     font-size: 16px;
@@ -368,7 +368,7 @@ body {
             justify-content: center;
 }
 
-.products-button-style {
+.products-button__style {
     border: 1px solid #FF6A6A;
     background: #FFF;
     display: block;
@@ -381,7 +381,7 @@ body {
 }
 
 /* кнопка показать все товары */
-.products-button-style:hover {
+.products-button__style:hover {
     background: #FF6A6A;
     color: #fff;
 }
