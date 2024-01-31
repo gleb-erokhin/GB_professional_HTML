@@ -426,13 +426,13 @@ body {
     max-width: 360px;
 }
 
-.option-head {
+.option-item__head {
     color: #FBFBFB;
     font-family: 'Lato';
     font-size: 19.96px;
 }
 
-.option-paragraf {
+.option-item__paragraf {
     color: #FBFBFB;
     text-align: center;
     font-family: 'Lato';
