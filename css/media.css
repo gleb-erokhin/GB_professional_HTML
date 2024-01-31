@@ -85,14 +85,14 @@
         gap: 19px;
     }
 
-    .proposals-item-img {
+    .proposals-item__img {
         width: 100%;
         height: 100%;
         -o-object-fit: cover;
            object-fit: cover;
     }
 
-    .proposals-item-big img {
+    .proposals-item__big img {
         min-height: 111px;
     }
 
