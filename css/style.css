@@ -491,7 +491,7 @@ body {
     font-style: italic;
 }
 
-.subscrybe-form-text {
+.subscrybe-form__text {
     color: #222224;
     text-align: center;
     font-family: 'Lato';
@@ -500,7 +500,7 @@ body {
     line-height: 1.6;
 }
 
-.subscrybe-form-paragraf {
+.subscrybe-form__paragraf {
     color: #222224;
     font-family: 'Lato';
     font-size: 18px;

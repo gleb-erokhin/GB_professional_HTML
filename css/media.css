@@ -149,11 +149,11 @@
         font-size: 18px;
     }
 
-    .subscrybe-form-text {
+    .subscrybe-form__text {
         line-height: 1.5;
     }
 
-    .subscrybe-form-paragraf {
+    .subscrybe-form__paragraf {
         font-size: 14px;
         line-height: 1.5;
     }
@@ -191,7 +191,7 @@
         padding-top: 40px;
     }
 
-    .subscrybe-form-text {
+    .subscrybe-form__text {
         line-height: 1.5;
     }
 
@@ -200,7 +200,7 @@
     }
 
 
-    .subscrybe-form-paragraf {
+    .subscrybe-form__paragraf {
         font-size: 14px;
         line-height: 1.5;
     }
