@@ -32,21 +32,35 @@ body {
   justify-content: space-between;
   min-height: 75px;
 }
-
-.logo {
+.main-header .main-header-left {
   display: flex;
-  gap: 41px;
-  align-items: flex-end;
+  gap: 13px;
+  align-items: center;
+}
+.main-header__brand {
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #222222;
+}
+.main-header__brand_red {
+  color: #F16D7F;
 }
 
-.logo:hover svg path {
-  fill: #F16D7F;
-}
-
-.user-buttons {
+.main-header__right {
   display: flex;
-  gap: 31px;
+  gap: 26px;
   align-items: flex-end;
+}
+.main-header__right__account {
+  background-color: #F16D7F;
+  display: block;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 13px 19px;
 }
 
 .menu:hover path {
@@ -82,21 +96,18 @@ body {
   border-left: 12px solid #F16D7F;
   padding-left: 16px;
 }
-
 .hero-text__head {
   color: #222222;
   font-family: "Lato";
   font-size: 48px;
   font-weight: 900;
 }
-
 .hero-text__midle {
   color: #222222;
   font-family: "Lato";
   font-size: 32px;
   font-weight: 700;
 }
-
 .hero-text__red {
   color: #F16D7F;
 }
