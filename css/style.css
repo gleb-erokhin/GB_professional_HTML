@@ -26,7 +26,7 @@ body {
 
 /* шапка сайта */
 .main-header {
-  background-color: #222;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,14 +84,14 @@ body {
 }
 
 .hero-text__head {
-  color: #222;
+  color: #222222;
   font-family: "Lato";
   font-size: 48px;
   font-weight: 900;
 }
 
 .hero-text__midle {
-  color: #222;
+  color: #222222;
   font-family: "Lato";
   font-size: 32px;
   font-weight: 700;
@@ -178,7 +178,7 @@ body {
 }
 
 .products-title__head {
-  color: #222;
+  color: #222222;
   font-family: "Lato";
   font-size: 30px;
 }
