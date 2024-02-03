@@ -136,9 +136,12 @@ body {
 }
 
 .hero {
+  position: relative;
+}
+.hero__content {
   background-image: url(../img/main-photo.png);
   height: 665px;
-  position: relative;
+  width: 1600px;
 }
 .hero__text {
   position: absolute;

@@ -170,18 +170,18 @@ body {
 }
 
 .hero {
-    background-image: url(../img/main-photo.png);
-    height: 665px;
     position: relative;
 
-    &__text {
-        position: absolute; 
-        top: 224px;
-        
-
+    &__content {
+        background-image: url(../img/main-photo.png);
+        height: 665px;
+        width: 1600px;
     }
 
-   
+    &__text {
+        position: absolute;
+        top: 224px;
+    }
 }
 
 /* Блок предложения и скидки */
