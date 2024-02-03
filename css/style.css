@@ -141,7 +141,10 @@ body {
   background-image: url(../img/main-photo.png);
   background-blend-mode: overlay;
   background-size: cover;
-  height: 665px;
+  height: 615px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-text {
@@ -164,57 +167,6 @@ body {
 }
 
 /* Блок предложения и скидки */
-.proposals {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 48px;
-  align-items: center;
-}
-
-.proposals-item {
-  background: rgba(33, 22, 22, 0.7);
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  transition: transform 1s ease-in-out;
-}
-
-.proposals-item__img {
-  position: relative;
-  z-index: -1;
-  width: 100%;
-}
-
-.proposals-item:hover {
-  transform: translateY(-1.1%);
-}
-
-.proposals-item__big {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-column: 1/4;
-}
-
-.proposal-item__text {
-  /* ставим абсолют туда куда хотим повесить картину */
-  position: absolute;
-  color: #fff;
-  text-align: center;
-  font-family: "Lato";
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
-.proposal-item__red {
-  color: #f16d7f;
-  font-family: "Lato";
-  font-size: 24px;
-  font-weight: 700;
-}
-
 /* Блок продукты */
 .products {
   padding-top: 48px;
