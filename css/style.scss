@@ -10,7 +10,7 @@ $colorPink: #f16d7f;
 $colortWite: #ffffff;
 $contantWidth: 1140px;
 
-$bgColorSearch: #cdcdcc;
+$bgColorSearch: #e8e8e8;
 $borderColorSearch: #e6e6e6;
 $colorTextSearch: #a4a4a4;
 
@@ -41,10 +41,12 @@ body {
     justify-content: space-between;
     height: 100px;
 
+    &__link {
+        text-decoration: none;
+    }
+
     // Левая часть, лого, бренд, поиск
     &__left {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         gap: 13px;
         align-items: center;
@@ -134,12 +136,33 @@ body {
     }
 }
 
-.menu:hover path {
-    fill: $colorPink;
+// Главная навигация сайта
+.navigation {
+    height: 51px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-.profile:hover path {
-    fill: $colorPink;
+// главное меню
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    background-color: $contantWidth;
+
+    &__list {
+        line-height: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $colorMainText;
+        list-style: none;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $colorMainText;
+    }
 }
 
 .store:hover path {
