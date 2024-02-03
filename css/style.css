@@ -136,15 +136,15 @@ body {
 }
 
 .hero {
-  padding-bottom: 49px;
-  padding-left: calc(50% - 800px);
-  padding-right: calc(50% - 800px);
-}
-.hero__content {
+  background-image: url(../img/main-photo.png);
+  height: 665px;
   position: relative;
 }
+.hero__text {
+  position: absolute;
+  top: 224px;
+}
 
-/* Главный блок */
 /* Блок предложения и скидки */
 .proposals {
   display: grid;

@@ -170,61 +170,19 @@ body {
 }
 
 .hero {
-    padding-bottom: 49px;
-    // display: flex;
-    // gap: 64px;
-    padding-left: calc(50% - 1600px / 2);
-    padding-right: calc(50% - 1600px / 2);
-    // background: #f1e4e6;
+    background-image: url(../img/main-photo.png);
+    height: 665px;
+    position: relative;
 
-    &__content {
-        position: relative;
+    &__text {
+        position: absolute; 
+        top: 224px;
+        
+
     }
 
-    // &__text {
-    //     top: 224px;
-    //     position: absolute;    
-    // }
-
-    // &__span {
-    //     width: 5px;
-    //     background-color: $colorPink;
-    // }
+   
 }
-
-/* Главный блок */
-
-// .hero-content {
-//     display: flex;
-
-//     flex-direction: column;
-
-//     justify-content: center;
-//     padding-bottom: 96px;
-// }
-
-// .hero-text {
-//     border-left: 12px solid $colorPink;
-//     padding-left: 16px;
-
-//     &__head {
-//         color: #222222;
-//         font-family: "Lato";
-//         font-size: 48px;
-//         font-weight: 900;
-//     }
-
-//     &__midle {
-//         color: #222222;
-//         font-family: "Lato";
-//         font-size: 32px;
-//         font-weight: 700;
-//     }
-
-//     &__red {
-//         color: $colorPink;
-//     }
-// }
 
 /* Блок предложения и скидки */
 .proposals {
