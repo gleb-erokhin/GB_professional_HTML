@@ -169,6 +169,30 @@ body {
 /* Блок предложения и скидки */
 .offers {
   padding-top: 98px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 21px;
+}
+.offers__item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.offers__text {
+  padding: 16px 18px;
+  background-color: #ffffff;
+  position: absolute;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color: #222222;
+}
+.offers__title {
+  font-size: 30px;
+  color: #f16d7f;
 }
 
 /* Блок продукты */

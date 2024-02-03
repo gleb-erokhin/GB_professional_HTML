@@ -208,7 +208,36 @@ body {
 
 /* Блок предложения и скидки */
 .offers {
-    padding-top: 98px
+    padding-top: 98px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 21px;
+
+    &__item {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    &__text {
+        padding: 16px 18px;
+        background-color: $colortWite;
+
+        position: absolute;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 900;
+        letter-spacing: 0.025em;
+        color: $colorMainText;
+    }
+
+    &__title {
+        font-size: 30px;
+        color: $colorPink;
+    }
 }
 
 /* Блок продукты */
