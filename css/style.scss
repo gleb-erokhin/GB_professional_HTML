@@ -172,6 +172,7 @@ body {
     }
 }
 
+// Блок с центральным фото
 .hero {
     background-image: url(../img/main-photo.png);
     background-blend-mode: overlay;
@@ -205,10 +206,10 @@ body {
     }
 }
 
-
-
 /* Блок предложения и скидки */
-
+.offers {
+    padding-top: 98px
+}
 
 /* Блок продукты */
 .products {

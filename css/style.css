@@ -167,6 +167,10 @@ body {
 }
 
 /* Блок предложения и скидки */
+.offers {
+  padding-top: 98px;
+}
+
 /* Блок продукты */
 .products {
   padding-top: 48px;
