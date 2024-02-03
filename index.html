@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -20,7 +21,10 @@
             <h1 class="main-header__brand">bran<span class="main-header__brand_red">d</span></h1>
             <form class="main-header__search" action="#">
                 <button class="main-header__button">Browse</button>
-                <input class="main-header__input" type="text" placeholder="Search for item">
+                <input class="main-header__input main-header__input_search" type="text" placeholder="Search for item">
+                <label class="main-header__input main-header__input_find" for="">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </label>
             </form>
         </div>
 
