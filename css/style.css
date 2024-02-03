@@ -30,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 75px;
+  height: 100px;
 }
 .main-header__left {
   display: flex;
@@ -46,20 +46,24 @@ body {
   color: #222222;
 }
 .main-header__brand_red {
-  color: #F16D7F;
+  color: #f16d7f;
 }
 .main-header__search {
   display: flex;
   align-items: center;
 }
 .main-header__button {
+  width: 87px;
   height: 38px;
   padding-left: 14px;
-  padding-right: 26px;
+  padding-right: 10px;
   background-color: #cdcdcc;
   background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
   border: 1px solid #e6e6e6;
   border-radius: 3px 0px 0px 3px;
+}
+.main-header .fa {
+  padding-left: 8px;
 }
 .main-header__input {
   height: 38px;
@@ -89,24 +93,26 @@ body {
   align-items: center;
 }
 .main-header__account {
-  background-color: #F16D7F;
+  background-color: #f16d7f;
   display: block;
   border: none;
+  width: 130px;
+  height: 38px;
+  box-sizing: border-box;
   color: #ffffff;
   font-size: 15px;
-  padding: 10px 29px 10px 20px;
 }
 
 .menu:hover path {
-  fill: #F16D7F;
+  fill: #f16d7f;
 }
 
 .profile:hover path {
-  fill: #F16D7F;
+  fill: #f16d7f;
 }
 
 .store:hover path {
-  fill: #F16D7F;
+  fill: #f16d7f;
 }
 
 /* Главный блок */
@@ -116,7 +122,7 @@ body {
   gap: 64px;
   padding-left: calc(50% - 800px);
   padding-right: calc(50% - 800px);
-  background: #F1E4E6;
+  background: #f1e4e6;
 }
 
 .hero-content {
@@ -127,7 +133,7 @@ body {
 }
 
 .hero-text {
-  border-left: 12px solid #F16D7F;
+  border-left: 12px solid #f16d7f;
   padding-left: 16px;
 }
 .hero-text__head {
@@ -143,7 +149,7 @@ body {
   font-weight: 700;
 }
 .hero-text__red {
-  color: #F16D7F;
+  color: #f16d7f;
 }
 
 /* Блок предложения и скидки */
@@ -184,7 +190,7 @@ body {
 .proposal-item__text {
   /* ставим абсолют туда куда хотим повесить картину */
   position: absolute;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "Lato";
   font-size: 16px;
@@ -192,7 +198,7 @@ body {
 }
 
 .proposal-item__red {
-  color: #F16D7F;
+  color: #f16d7f;
   font-family: "Lato";
   font-size: 24px;
   font-weight: 700;
@@ -229,7 +235,7 @@ body {
 }
 
 .products-title__text {
-  color: #9F9F9F;
+  color: #9f9f9f;
   font-family: "Lato";
   font-size: 14px;
 }
@@ -265,7 +271,7 @@ body {
 .products-card__button {
   position: absolute;
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
   padding: 10px 15px;
   border: 1px solid #fff;
   text-align: center;
@@ -291,7 +297,7 @@ body {
   flex-direction: column;
   padding: 24px 16px;
   gap: 16px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .products-item__head {
@@ -301,14 +307,14 @@ body {
 }
 
 .products-item__paragraf {
-  color: #5D5D5D;
+  color: #5d5d5d;
   font-family: "Lato";
   font-size: 14px;
   font-weight: 300;
 }
 
 .products-item__price {
-  color: #F16D7F;
+  color: #f16d7f;
   font-family: "Lato";
   font-size: 16px;
 }
@@ -320,10 +326,10 @@ body {
 }
 
 .products-button__style {
-  border: 1px solid #FF6A6A;
-  background: #FFF;
+  border: 1px solid #ff6a6a;
+  background: #fff;
   display: block;
-  color: #F26376;
+  color: #f26376;
   font-family: "Lato";
   font-size: 16px;
   padding: 15px 39px;
@@ -332,7 +338,7 @@ body {
 
 /* кнопка показать все товары */
 .products-button__style:hover {
-  background: #FF6A6A;
+  background: #ff6a6a;
   color: #fff;
 }
 
@@ -361,13 +367,13 @@ body {
 }
 
 .option-item__head {
-  color: #FBFBFB;
+  color: #fbfbfb;
   font-family: "Lato";
   font-size: 19.96px;
 }
 
 .option-item__paragraf {
-  color: #FBFBFB;
+  color: #fbfbfb;
   text-align: center;
   font-family: "Lato";
   font-size: 13.972px;
@@ -440,16 +446,16 @@ body {
   border: none;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-  background-color: #E1E1E1;
+  background-color: #e1e1e1;
 }
 
 .forms button {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "Lato";
   font-size: 14px;
   padding: 16px 22px;
-  background-color: #F16D7F;
+  background-color: #f16d7f;
   border: none;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -470,7 +476,7 @@ body {
 }
 
 .footer-copy {
-  color: #FBFBFB;
+  color: #fbfbfb;
   font-family: "Lato";
   font-size: 16px;
 }
@@ -491,7 +497,7 @@ body {
 
 /* режим наведения на кнопки соцсетей */
 .social-item:hover {
-  background-color: #F16D7F;
+  background-color: #f16d7f;
 }
 
 .social-item:hover svg path {

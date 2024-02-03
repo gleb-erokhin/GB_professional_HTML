@@ -5,8 +5,8 @@
 * Browsers: last 4 version
 */
 
-$colorMainSite: #222222;
-$colorPink: #F16D7F;
+$colorMainText: #222222;
+$colorPink: #f16d7f;
 $colortWite: #ffffff;
 $contantWidth: 1140px;
 
@@ -23,7 +23,7 @@ body {
     font-style: normal;
     line-height: normal;
     font-weight: 400;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 14px;
 }
 
@@ -36,16 +36,10 @@ body {
 /* шапка сайта */
 .main-header {
     background-color: $colortWite;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    min-height: 75px;
+    height: 100px;
 
     // Левая часть, лого, бренд, поиск
     &__left {
@@ -53,8 +47,6 @@ body {
         display: -ms-flexbox;
         display: flex;
         gap: 13px;
-        -webkit-box-align: end;
-        -ms-flex-align: end;
         align-items: center;
     }
 
@@ -64,7 +56,7 @@ body {
         font-weight: 300;
         text-transform: uppercase;
         letter-spacing: 0.025em;
-        color: $colorMainSite;
+        color: $colorMainText;
     }
 
     &__brand_red {
@@ -76,22 +68,28 @@ body {
         align-items: center;
     }
 
+    // кнопка обзор
     &__button {
+        width: 87px;
         height: 38px;
         padding-left: 14px;
-        padding-right: 26px;
+        padding-right: 10px;
         background-color: $bgColorSearch;
-        background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+        background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
         border: 1px solid $borderColorSearch;
         border-radius: 3px 0px 0px 3px;
     }
 
+    .fa {
+        padding-left: 8px;
+    }
+
+    // общие параметры инпута
     &__input {
         height: 38px;
         box-sizing: border-box;
         background-color: $colortWite;
         border: 1px solid $borderColorSearch;
-        // border-radius: 0px 3px 3px 0px;
         padding-left: 16px;
 
         line-height: 32px;
@@ -100,10 +98,12 @@ body {
         color: $colorTextSearch;
     }
 
+    // модификатор для строки поиска
     &__input_search {
         width: 279px;
     }
 
+    // модификатор для значка поиска
     &__input_find {
         display: flex;
         justify-content: center;
@@ -116,12 +116,8 @@ body {
 
     // Праавый блок, корзина, кнопка аккаунта
     &__right {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         gap: 26px;
-        -webkit-box-align: end;
-        -ms-flex-align: end;
         align-items: center;
     }
 
@@ -129,15 +125,14 @@ body {
         background-color: $colorPink;
         display: block;
         border: none;
+        width: 130px;
+        height: 38px;
+        box-sizing: border-box;
 
         color: $colortWite;
         font-size: 15px;
-        padding: 10px 29px 10px 20px;
     }
-
 }
-
-
 
 .menu:hover path {
     fill: $colorPink;
@@ -160,7 +155,7 @@ body {
     gap: 64px;
     padding-left: calc(50% - 1600px / 2);
     padding-right: calc(50% - 1600px / 2);
-    background: #F1E4E6;
+    background: #f1e4e6;
 }
 
 .hero-content {
@@ -183,14 +178,14 @@ body {
 
     &__head {
         color: #222222;
-        font-family: 'Lato';
+        font-family: "Lato";
         font-size: 48px;
         font-weight: 900;
     }
 
     &__midle {
         color: #222222;
-        font-family: 'Lato';
+        font-family: "Lato";
         font-size: 32px;
         font-weight: 700;
     }
@@ -199,7 +194,6 @@ body {
         color: $colorPink;
     }
 }
-
 
 /* Блок предложения и скидки */
 .proposals {
@@ -215,7 +209,7 @@ body {
 }
 
 .proposals-item {
-    background: rgba(33, 22, 22, 0.70);
+    background: rgba(33, 22, 22, 0.7);
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -232,7 +226,9 @@ body {
     transition: -webkit-transform 1s ease-in-out;
     -o-transition: transform 1s ease-in-out;
     transition: transform 1s ease-in-out;
-    transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+    transition:
+        transform 1s ease-in-out,
+        -webkit-transform 1s ease-in-out;
 }
 
 .proposals-item__img {
@@ -256,16 +252,16 @@ body {
 .proposal-item__text {
     /* ставим абсолют туда куда хотим повесить картину */
     position: absolute;
-    color: #FFF;
+    color: #fff;
     text-align: center;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 16px;
     text-transform: uppercase;
 }
 
 .proposal-item__red {
     color: $colorPink;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 24px;
     font-weight: 700;
 }
@@ -313,13 +309,13 @@ body {
 
 .products-title__head {
     color: #222222;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 30px;
 }
 
 .products-title__text {
-    color: #9F9F9F;
-    font-family: 'Lato';
+    color: #9f9f9f;
+    font-family: "Lato";
     font-size: 14px;
 }
 
@@ -364,7 +360,7 @@ body {
     position: absolute;
     text-decoration: none;
 
-    color: #FFF;
+    color: #fff;
     padding: 10px 15px;
     border: 1px solid #fff;
     text-align: center;
@@ -413,25 +409,25 @@ body {
     flex-direction: column;
     padding: 24px 16px;
     gap: 16px;
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
 }
 
 .products-item__head {
     color: #000;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 13px;
 }
 
 .products-item__paragraf {
-    color: #5D5D5D;
-    font-family: 'Lato';
+    color: #5d5d5d;
+    font-family: "Lato";
     font-size: 14px;
     font-weight: 300;
 }
 
 .products-item__price {
     color: $colorPink;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 16px;
 }
 
@@ -446,12 +442,12 @@ body {
 }
 
 .products-button__style {
-    border: 1px solid #FF6A6A;
-    background: #FFF;
+    border: 1px solid #ff6a6a;
+    background: #fff;
     display: block;
 
-    color: #F26376;
-    font-family: 'Lato';
+    color: #f26376;
+    font-family: "Lato";
     font-size: 16px;
     padding: 15px 39px;
     margin-bottom: 60px;
@@ -459,7 +455,7 @@ body {
 
 /* кнопка показать все товары */
 .products-button__style:hover {
-    background: #FF6A6A;
+    background: #ff6a6a;
     color: #fff;
 }
 
@@ -504,15 +500,15 @@ body {
 }
 
 .option-item__head {
-    color: #FBFBFB;
-    font-family: 'Lato';
+    color: #fbfbfb;
+    font-family: "Lato";
     font-size: 19.96px;
 }
 
 .option-item__paragraf {
-    color: #FBFBFB;
+    color: #fbfbfb;
     text-align: center;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 13.972px;
     font-weight: 300;
     max-width: 82%;
@@ -521,7 +517,7 @@ body {
 /* блок subscrybe */
 .subscrybe {
     background-image: url(../img/subs.png);
-    background-color: rgba(244, 244, 244, 0.70);
+    background-color: rgba(244, 244, 244, 0.7);
     background-blend-mode: overlay;
     background-size: cover;
     min-height: 448px;
@@ -556,14 +552,14 @@ body {
 .subscrybe-comment__paragraf {
     color: #222224;
     text-align: center;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 20px;
     max-width: 360px;
 }
 
 .subscrybe-comment__span {
     color: #222224;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 20px;
     font-style: italic;
 }
@@ -571,7 +567,7 @@ body {
 .subscrybe-form__text {
     color: #222224;
     text-align: center;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 24px;
     font-weight: 700;
     line-height: 1.6;
@@ -579,7 +575,7 @@ body {
 
 .subscrybe-form__paragraf {
     color: #222224;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 18px;
     line-height: 1.6;
 }
@@ -597,20 +593,20 @@ body {
 .forms input {
     padding: 16px 22px 16px 20px;
     color: #222224;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 14px;
 
     outline: none;
     border: none;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    background-color: #E1E1E1;
+    background-color: #e1e1e1;
 }
 
 .forms button {
-    color: #FFF;
+    color: #fff;
     text-align: center;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 14px;
 
     padding: 16px 22px;
@@ -648,8 +644,8 @@ body {
 }
 
 .footer-copy {
-    color: #FBFBFB;
-    font-family: 'Lato';
+    color: #fbfbfb;
+    font-family: "Lato";
     font-size: 16px;
 }
 
