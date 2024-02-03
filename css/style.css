@@ -106,6 +106,10 @@ body {
   font-size: 15px;
 }
 
+.store:hover path {
+  fill: #f16d7f;
+}
+
 .navigation {
   height: 51px;
   align-items: center;
@@ -131,47 +135,16 @@ body {
   color: #222222;
 }
 
-.store:hover path {
-  fill: #f16d7f;
+.hero {
+  padding-bottom: 49px;
+  padding-left: calc(50% - 800px);
+  padding-right: calc(50% - 800px);
+}
+.hero__content {
+  position: relative;
 }
 
 /* Главный блок */
-.hero {
-  margin-bottom: 64px;
-  display: flex;
-  gap: 64px;
-  padding-left: calc(50% - 800px);
-  padding-right: calc(50% - 800px);
-  background: #f1e4e6;
-}
-
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 96px;
-}
-
-.hero-text {
-  border-left: 12px solid #f16d7f;
-  padding-left: 16px;
-}
-.hero-text__head {
-  color: #222222;
-  font-family: "Lato";
-  font-size: 48px;
-  font-weight: 900;
-}
-.hero-text__midle {
-  color: #222222;
-  font-family: "Lato";
-  font-size: 32px;
-  font-weight: 700;
-}
-.hero-text__red {
-  color: #f16d7f;
-}
-
 /* Блок предложения и скидки */
 .proposals {
   display: grid;
