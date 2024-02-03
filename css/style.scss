@@ -41,6 +41,9 @@ body {
     justify-content: space-between;
     height: 100px;
 
+    border: 1px solid #ececec;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
+
     &__link {
         text-decoration: none;
     }
@@ -170,19 +173,39 @@ body {
 }
 
 .hero {
-    position: relative;
+    background-image: url(../img/main-photo.png);
+    // background-color: rgba(244, 244, 244, 0.7);
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 665px;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+}
 
-    &__content {
-        background-image: url(../img/main-photo.png);
-        height: 665px;
-        width: 1600px;
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 224px;
+
+    &__head {
+        font-size: 60px;
+        line-height: 1.2;
+        font-weight: 900;
+        letter-spacing: 0.025em;
+        color: $colorMainText;
     }
 
-    &__text {
-        position: absolute;
-        top: 224px;
+    &_midle {
+        font-size: 40px;
+    }
+
+    &_red {
+        color: $colorPink;
     }
 }
+
+
 
 /* Блок предложения и скидки */
 .proposals {

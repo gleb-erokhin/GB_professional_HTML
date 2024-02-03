@@ -31,6 +31,8 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 100px;
+  border: 1px solid #ececec;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
 }
 .main-header__link {
   text-decoration: none;
@@ -136,16 +138,29 @@ body {
 }
 
 .hero {
-  position: relative;
-}
-.hero__content {
   background-image: url(../img/main-photo.png);
+  background-blend-mode: overlay;
+  background-size: cover;
   height: 665px;
-  width: 1600px;
 }
-.hero__text {
-  position: absolute;
-  top: 224px;
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 224px;
+}
+.hero-text__head {
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color: #222222;
+}
+.hero-text_midle {
+  font-size: 40px;
+}
+.hero-text_red {
+  color: #f16d7f;
 }
 
 /* Блок предложения и скидки */
