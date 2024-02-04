@@ -251,6 +251,10 @@ body {
 
 // Блок продукты НОВЫЙ
 .products {
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+
     // заголовок блока продукты
     .products-title {
         display: flex;
@@ -270,6 +274,17 @@ body {
             color: $colorSubtitle;
         }
     }
+}
+
+// блок карточек, общее положение на странице
+.products-items {
+    display: grid;
+    grid-template-columns: repeat(4, 261px);
+    gap: 32px;
+}
+
+// стили карточки
+.products-item {
 }
 
 // старый код

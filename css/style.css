@@ -201,6 +201,11 @@ body {
   color: #f16d7f;
 }
 
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 59px;
+}
 .products .products-title {
   display: flex;
   flex-direction: column;
@@ -216,6 +221,12 @@ body {
 .products .products-title__text {
   letter-spacing: 0.025em;
   color: #9f9f9f;
+}
+
+.products-items {
+  display: grid;
+  grid-template-columns: repeat(4, 261px);
+  gap: 32px;
 }
 
 /* следующий блок черный отступ top должен быть 36 */
