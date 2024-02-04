@@ -9,6 +9,7 @@ $colorMainText: #222222;
 $colorPink: #f16d7f;
 $colortWite: #ffffff;
 $colorSubtitle: #9f9f9f;
+$colorFooterCopy: #7a7a7a;
 $colorOption: #fbfbfb;
 $contantWidth: 1140px;
 
@@ -426,7 +427,6 @@ body {
 }
 
 
-
 .subscrybe-form__text {
     color: $bgColorSecond;
     text-align: center;
@@ -477,7 +477,7 @@ body {
 /* блок footer */
 .footer {
     min-height: 79px;
-    background-color: $bgColorSecond;
+    background-color: $borderColorSearch;
 
     display: flex;
     justify-content: space-between;
@@ -485,7 +485,7 @@ body {
 }
 
 .footer-copy {
-    color: $colorOption;
+    color: $colorFooterCopy;
     font-size: 16px;
 }
 
@@ -502,6 +502,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.social-item svg path {
+    fill: #b2b2b2;
 }
 
 /* режим наведения на кнопки соцсетей */
