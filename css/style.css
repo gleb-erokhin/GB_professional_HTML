@@ -164,7 +164,6 @@ body {
   color: #f16d7f;
 }
 
-/* Блок предложения и скидки */
 .offers {
   padding-top: 98px;
   padding-bottom: 98px;
@@ -259,7 +258,7 @@ body {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   position: relative;
   z-index: -1;
 }
