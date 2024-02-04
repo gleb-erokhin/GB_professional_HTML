@@ -187,6 +187,8 @@ body {
 .offers__text {
   padding: 16px 18px;
   background-color: #ffffff;
+  top: 26px;
+  left: 0;
   position: absolute;
   font-size: 18px;
   line-height: 1.2;
@@ -197,144 +199,6 @@ body {
 .offers__text_title {
   font-size: 30px;
   color: #f16d7f;
-}
-
-/* Блок продукты */
-.products {
-  padding-top: 48px;
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-}
-
-.products-item {
-  display: flex;
-  flex-direction: column;
-}
-
-.products-item img {
-  width: 100%;
-}
-
-.products-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-}
-
-.products-title__head {
-  color: #222222;
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.025em;
-}
-
-.products-title__text {
-  color: #9f9f9f;
-  font-size: 14px;
-}
-
-.products-items {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 360px);
-  gap: 24px;
-}
-
-.products-item__img {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.products-item__img:hover {
-  background-color: rgba(58, 56, 56, 0.86);
-  transition: all 0.5s ease-in;
-}
-
-/* темный фон, карточка add button */
-.products-card__img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: relative;
-  z-index: -1;
-}
-
-.products-card__button {
-  position: absolute;
-  text-decoration: none;
-  color: #fff;
-  padding: 10px 15px;
-  border: 1px solid #fff;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  transition: all 0.5s ease-in;
-  display: none;
-}
-
-.products-item:hover .products-card__button {
-  display: initial;
-  display: flex;
-  align-items: center;
-}
-
-.products-card__button:hover {
-  transform: scale(1.1);
-}
-
-.products-item__block {
-  display: flex;
-  flex-direction: column;
-  padding: 24px 16px;
-  gap: 16px;
-  background-color: #f8f8f8;
-}
-
-.products-item__head {
-  color: #000;
-  font-family: "Lato";
-  font-size: 13px;
-}
-
-.products-item__paragraf {
-  color: #5d5d5d;
-  font-family: "Lato";
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.products-item__price {
-  color: #f16d7f;
-  font-family: "Lato";
-  font-size: 16px;
-}
-
-/* кнопка для всех товаров */
-.products-button {
-  display: flex;
-  justify-content: center;
-}
-
-.products-button__style {
-  border: 1px solid #ff6a6a;
-  background: #fff;
-  display: block;
-  color: #f26376;
-  font-family: "Lato";
-  font-size: 16px;
-  padding: 15px 39px;
-  margin-bottom: 60px;
-}
-
-/* кнопка показать все товары */
-.products-button__style:hover {
-  background: #ff6a6a;
-  color: #fff;
 }
 
 /* следующий блок черный отступ top должен быть 36 */
