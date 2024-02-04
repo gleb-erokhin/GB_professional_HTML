@@ -325,10 +325,10 @@ body {
   background-color: rgba(244, 244, 244, 0.7);
   background-blend-mode: overlay;
   background-size: cover;
-  min-height: 448px;
+  min-height: 438px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 165px;
 }
 
 .subscrybe-comment {
@@ -336,18 +336,11 @@ body {
   align-items: center;
   gap: 28px;
 }
-
 .subscrybe-comment__paragraf {
-  color: #222224;
-  text-align: center;
-  font-size: 20px;
-  max-width: 360px;
-}
-
-.subscrybe-comment__span {
   color: #222224;
   font-size: 20px;
   font-style: italic;
+  width: 486px;
 }
 
 .subscrybe-form__text {

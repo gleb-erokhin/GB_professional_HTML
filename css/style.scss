@@ -226,13 +226,14 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 21px;
 
-    & > div:nth-child(4) {
+    &>div:nth-child(4) {
         grid-row: 2 / 4;
     }
 
-    & > div:nth-child(1) {
+    &>div:nth-child(1) {
         grid-row: 1 / 3;
     }
+
     &__item {
         position: relative;
         display: flex;
@@ -323,6 +324,7 @@ body {
 // Блок опции, корневой
 .options {
     padding-bottom: 98px;
+
     &__conteiner {
         height: 529px;
         gap: 36px;
@@ -403,31 +405,27 @@ body {
     background-color: rgba(244, 244, 244, 0.7);
     background-blend-mode: overlay;
     background-size: cover;
-    min-height: 448px;
+    min-height: 438px;
 
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 165px;
 }
 
 .subscrybe-comment {
     display: flex;
     align-items: center;
     gap: 28px;
+
+    &__paragraf {
+        color: $bgColorSecond;
+        font-size: 20px;
+        font-style: italic;
+        width: 486px;
+    }
 }
 
-.subscrybe-comment__paragraf {
-    color: $bgColorSecond;
-    text-align: center;
-    font-size: 20px;
-    max-width: 360px;
-}
 
-.subscrybe-comment__span {
-    color: $bgColorSecond;
-    font-size: 20px;
-    font-style: italic;
-}
 
 .subscrybe-form__text {
     color: $bgColorSecond;
