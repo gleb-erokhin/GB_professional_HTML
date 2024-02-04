@@ -8,6 +8,7 @@
 $colorMainText: #222222;
 $colorPink: #f16d7f;
 $colortWite: #ffffff;
+$colorSubtitle: #9f9f9f;
 $contantWidth: 1140px;
 
 $bgColorMain: #e8e8e8;
@@ -251,7 +252,7 @@ body {
     padding-top: 48px;
     display: flex;
     flex-direction: column;
-    gap: 49px;
+    gap: 60px;
 }
 
 .products-item {
@@ -267,23 +268,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6px;
+    gap: 16px;
 }
 
 .products-title__head {
-    color: #222222;
-    font-family: "Lato";
+    color: $colorMainText;
     font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
 }
 
 .products-title__text {
-    color: #9f9f9f;
-    font-family: "Lato";
+    color: $colorSubtitle;
     font-size: 14px;
 }
 
 .products-items {
-    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill, 360px);
     gap: 24px;
