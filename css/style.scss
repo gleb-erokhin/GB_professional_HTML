@@ -14,6 +14,7 @@ $contantWidth: 1140px;
 $bgColorMain: #e8e8e8;
 $borderColorSearch: #e6e6e6;
 $colorTextSearch: #a4a4a4;
+$bgOptions: #222224;
 
 * {
     padding: 0;
@@ -318,47 +319,58 @@ body {
     }
 }
 
-/* следующий блок черный отступ top должен быть 36 */
 /* блок options */
 .options {
-    margin-top: 36px;
-    background-color: #222224;
-    min-height: 341px;
-    padding-left: calc(50% - 1600px / 2);
-    padding-right: calc(50% - 1600px / 2);
+    height: 529px;
+    gap: 36px;
 
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    gap: 30px;
 }
 
-.option-item {
+.option {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 17px;
-    padding-top: 104px;
-    padding-bottom: 104px;
-    max-width: 360px;
+    justify-content: space-around;
+
+    &__item {
+        display: flex;
+    gap: 33px;
+    }
+    
+    &__header {
+        display: flex;
+        gap: 17px;
+        flex-direction: column;
+        width: 220px;
+    }
 }
 
-.option-item__head {
-    color: #fbfbfb;
-    font-family: "Lato";
-    font-size: 19.96px;
-}
+// .option-item {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: space-between;
+//     gap: 17px;
+//     padding-top: 104px;
+//     padding-bottom: 104px;
+//     max-width: 360px;
+// }
 
-.option-item__paragraf {
-    color: #fbfbfb;
-    text-align: center;
-    font-family: "Lato";
-    font-size: 13.972px;
-    font-weight: 300;
-    max-width: 82%;
-}
+// .option-item__head {
+//     color: #fbfbfb;
+//     font-family: "Lato";
+//     font-size: 19.96px;
+// }
+
+// .option-item__paragraf {
+//     color: #fbfbfb;
+//     text-align: center;
+//     font-family: "Lato";
+//     font-size: 13.972px;
+//     font-weight: 300;
+//     max-width: 82%;
+// }
 
 /* блок subscrybe */
 .subscrybe {
