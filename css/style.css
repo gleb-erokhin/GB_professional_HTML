@@ -256,12 +256,11 @@ body {
   color: #ffffff;
 }
 
-/* блок options */
-.options {
+.options__conteiner {
   height: 529px;
   gap: 36px;
+  background-color: #222224;
   display: flex;
-  justify-content: center;
 }
 
 .option {
@@ -278,6 +277,20 @@ body {
   gap: 17px;
   flex-direction: column;
   width: 220px;
+}
+
+.option-item__head {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #fbfbfb;
+}
+.option-item__title {
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #fbfbfb;
 }
 
 /* блок subscrybe */

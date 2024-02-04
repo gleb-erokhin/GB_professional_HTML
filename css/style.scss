@@ -9,6 +9,7 @@ $colorMainText: #222222;
 $colorPink: #f16d7f;
 $colortWite: #ffffff;
 $colorSubtitle: #9f9f9f;
+$colorOption: #fbfbfb;
 $contantWidth: 1140px;
 
 $bgColorMain: #e8e8e8;
@@ -319,15 +320,18 @@ body {
     }
 }
 
-/* блок options */
+// Блок опции
 .options {
-    height: 529px;
-    gap: 36px;
+    &__conteiner {
+        height: 529px;
+        gap: 36px;
+        background-color: $bgOptions;
 
-    display: flex;
-    justify-content: center;
+        display: flex;
+    }
 }
 
+// правый блок Опции
 .option {
     display: flex;
     flex-direction: column;
@@ -335,9 +339,9 @@ body {
 
     &__item {
         display: flex;
-    gap: 33px;
+        gap: 33px;
     }
-    
+
     &__header {
         display: flex;
         gap: 17px;
@@ -346,6 +350,23 @@ body {
     }
 }
 
+// оформление текста блока Опции
+.option-item {
+    &__head {
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 700;
+        letter-spacing: 0.025em;
+        color: $colorOption;
+    }
+
+    &__title {
+        line-height: 24px;
+        font-weight: 300;
+        letter-spacing: 0.025em;
+        color: $colorOption;
+    }
+}
 // .option-item {
 //     display: flex;
 //     flex-direction: column;
