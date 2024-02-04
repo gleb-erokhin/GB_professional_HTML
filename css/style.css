@@ -29,6 +29,10 @@ body {
   border: 1px solid #f16d7f;
 }
 
+.global_pink {
+  color: #f16d7f;
+}
+
 /* Общее центрирование */
 .center {
   padding-left: calc(50% - 570px);
@@ -238,8 +242,26 @@ body {
   gap: 32px;
 }
 
+.products-item {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
 .products-item img {
   width: 100%;
+}
+.products-item__head {
+  padding-bottom: 19px;
+  font-size: 13px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #222222;
+}
+.products-item__price {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .products-button {

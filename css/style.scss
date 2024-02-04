@@ -32,7 +32,7 @@ body {
     font-size: 14px;
 }
 
-// общие стили для всей страницы
+// --- общие стили для всей страницы ---
 // отступ для ирифтовых иконок
 .fa-left-padding {
     padding-left: 8px;
@@ -43,6 +43,10 @@ body {
     color: $colorPink;
     background-color: $colortWite;
     border: 1px solid $colorPink;
+}
+
+.global_pink {
+    color: $colorPink;
 }
 
 /* Общее центрирование */
@@ -263,7 +267,7 @@ body {
     }
 }
 
-// Блок продукты НОВЫЙ
+// Блок продукты
 .products {
     display: flex;
     flex-direction: column;
@@ -300,8 +304,28 @@ body {
 
 // стили карточки
 .products-item {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+
     img {
         width: 100%;
+    }
+
+    &__head {
+        padding-bottom: 19px;
+
+        font-size: 13px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: $colorMainText;
+    }
+
+    &__price {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
     }
 }
 
