@@ -8,6 +8,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,6 +17,16 @@ body {
   font-weight: 400;
   font-family: "Lato";
   font-size: 14px;
+}
+
+.fa-left-padding {
+  padding-left: 8px;
+}
+
+.button-hover_pink:hover {
+  color: #f16d7f;
+  background-color: #ffffff;
+  border: 1px solid #f16d7f;
 }
 
 /* Общее центрирование */
@@ -66,9 +77,6 @@ body {
   background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
   border: 1px solid #e6e6e6;
   border-radius: 3px 0px 0px 3px;
-}
-.main-header .fa {
-  padding-left: 8px;
 }
 .main-header__input {
   height: 38px;
@@ -205,6 +213,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 59px;
+  padding-bottom: 113px;
 }
 .products .products-title {
   display: flex;
@@ -231,6 +240,20 @@ body {
 
 .products-item img {
   width: 100%;
+}
+
+.products-button {
+  display: flex;
+  justify-content: center;
+}
+.products-button__all {
+  background-color: #f16d7f;
+  padding: 20px 24px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #ffffff;
 }
 
 /* следующий блок черный отступ top должен быть 36 */

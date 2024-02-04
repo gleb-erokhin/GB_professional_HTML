@@ -18,6 +18,7 @@ $colorTextSearch: #a4a4a4;
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -26,6 +27,19 @@ body {
     font-weight: 400;
     font-family: "Lato";
     font-size: 14px;
+}
+
+// общие стили для всей страницы
+// отступ для ирифтовых иконок
+.fa-left-padding {
+    padding-left: 8px;
+}
+
+// наведение на кнопку
+.button-hover_pink:hover {
+    color: $colorPink;
+    background-color: $colortWite;
+    border: 1px solid $colorPink;
 }
 
 /* Общее центрирование */
@@ -84,10 +98,6 @@ body {
         background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
         border: 1px solid $borderColorSearch;
         border-radius: 3px 0px 0px 3px;
-    }
-
-    .fa {
-        padding-left: 8px;
     }
 
     // общие параметры инпута
@@ -254,6 +264,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 59px;
+    padding-bottom: 113px;
 
     // заголовок блока продукты
     .products-title {
@@ -290,153 +301,22 @@ body {
     }
 }
 
-// старый код
-// /* Блок продукты */
-// .products {
-//     padding-top: 48px;
-//     display: flex;
-//     flex-direction: column;
-//     gap: 60px;
-// }
+// Кнопка Все продукты
+.products-button {
+    display: flex;
+    justify-content: center;
 
-// .products-title {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     gap: 16px;
+    &__all {
+        background-color: $colorPink;
+        padding: 20px 24px;
+        border: none;
 
-//     &__head {
-//         color: $colorMainText;
-//         font-size: 30px;
-//         font-weight: 700;
-//         letter-spacing: 0.025em;
-//     }
-
-//     &__text {
-//         color: $colorSubtitle;
-//         font-size: 14px;
-//     }
-// }
-
-// .products-item {
-//     display: flex;
-//     flex-direction: column;
-// }
-
-// .products-item img {
-//     width: 100%;
-// }
-
-// блок карточек
-
-// .products-items {
-//     display: grid;
-//     grid-template-columns: repeat(auto-fill, 360px);
-//     gap: 24px;
-
-//     &__img {
-//         position: relative;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//     }
-// }
-
-// // карточка
-// .products-item {
-//     &:hover .products-card__button {
-//         display: initial;
-//         display: flex;
-//         align-items: center;
-//     }
-
-//     &__img:hover {
-//         background-color: rgba(58, 56, 56, 0.86);
-//         transition: all 0.5s ease-in;
-//     }
-
-// }
-
-// /* темный фон, карточка add button */
-// .products-card__img {
-//     width: 100%;
-//     height: 100%;
-//     object-fit: cover;
-//     position: relative;
-//     z-index: -1;
-// }
-
-// .products-card__button {
-//     position: absolute;
-//     text-decoration: none;
-
-//     color: #fff;
-//     padding: 10px 15px;
-//     border: 1px solid #fff;
-//     text-align: center;
-
-//     display: flex;
-//     align-items: center;
-//     gap: 10px;
-
-//     transition: all 0.5s ease-in;
-//     display: none;
-// }
-
-// .products-card__button:hover {
-//     transform: scale(1.1);
-// }
-
-// .products-item__block {
-//     display: flex;
-//     flex-direction: column;
-//     padding: 24px 16px;
-//     gap: 16px;
-//     background-color: #f8f8f8;
-// }
-
-// .products-item__head {
-//     color: #000;
-//     font-family: "Lato";
-//     font-size: 13px;
-// }
-
-// .products-item__paragraf {
-//     color: #5d5d5d;
-//     font-family: "Lato";
-//     font-size: 14px;
-//     font-weight: 300;
-// }
-
-// .products-item__price {
-//     color: $colorPink;
-//     font-family: "Lato";
-//     font-size: 16px;
-// }
-
-// /* кнопка для всех товаров */
-// .products-button {
-//     display: flex;
-//     justify-content: center;
-// }
-
-// .products-button__style {
-//     border: 1px solid #ff6a6a;
-//     background: #fff;
-//     display: block;
-
-//     color: #f26376;
-//     font-family: "Lato";
-//     font-size: 16px;
-//     padding: 15px 39px;
-//     margin-bottom: 60px;
-// }
-
-// /* кнопка показать все товары */
-// .products-button__style:hover {
-//     background: #ff6a6a;
-//     color: #fff;
-// }
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.025em;
+        color: $colortWite;
+    }
+}
 
 /* следующий блок черный отступ top должен быть 36 */
 /* блок options */
