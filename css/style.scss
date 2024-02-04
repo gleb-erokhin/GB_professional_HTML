@@ -249,6 +249,29 @@ body {
     }
 }
 
+// Блок продукты НОВЫЙ
+.products {
+    // заголовок блока продукты
+    .products-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+        &__head {
+            font-size: 30px;
+            font-weight: 700;
+            letter-spacing: 0.025em;
+            color: $colorMainText;
+        }
+
+        &__text {
+            letter-spacing: 0.025em;
+            color: $colorSubtitle;
+        }
+    }
+}
+
 // старый код
 // /* Блок продукты */
 // .products {
