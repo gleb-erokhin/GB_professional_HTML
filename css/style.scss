@@ -320,8 +320,9 @@ body {
     }
 }
 
-// Блок опции
+// Блок опции, корневой
 .options {
+    padding-bottom: 98px;
     &__conteiner {
         height: 529px;
         gap: 36px;
@@ -329,6 +330,32 @@ body {
 
         display: flex;
     }
+}
+
+// текст надо фото слева
+.option-img {
+    position: relative;
+    &__text {
+        font-size: 54px;
+        line-height: 1.2;
+        font-weight: 700;
+        letter-spacing: 0.025em;
+        color: $colortWite;
+    }
+
+    &_pink {
+        color: $colorPink;
+    }
+
+    &_small {
+        font-size: 32px;
+    }
+}
+
+.option-text {
+    position: absolute;
+    top: 146px;
+    left: 39px;
 }
 
 // правый блок Опции
