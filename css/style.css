@@ -340,14 +340,12 @@ body {
 .subscrybe-comment__paragraf {
   color: #222224;
   text-align: center;
-  font-family: "Lato";
   font-size: 20px;
   max-width: 360px;
 }
 
 .subscrybe-comment__span {
   color: #222224;
-  font-family: "Lato";
   font-size: 20px;
   font-style: italic;
 }
@@ -355,7 +353,6 @@ body {
 .subscrybe-form__text {
   color: #222224;
   text-align: center;
-  font-family: "Lato";
   font-size: 24px;
   font-weight: 700;
   line-height: 1.6;
@@ -363,7 +360,6 @@ body {
 
 .subscrybe-form__paragraf {
   color: #222224;
-  font-family: "Lato";
   font-size: 18px;
   line-height: 1.6;
 }
@@ -377,8 +373,6 @@ body {
 .forms input {
   padding: 16px 22px 16px 20px;
   color: #222224;
-  font-family: "Lato";
-  font-size: 14px;
   outline: none;
   border: none;
   border-top-left-radius: 50px;
@@ -387,10 +381,8 @@ body {
 }
 
 .forms button {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
-  font-family: "Lato";
-  font-size: 14px;
   padding: 16px 22px;
   background-color: #f16d7f;
   border: none;
@@ -414,7 +406,6 @@ body {
 
 .footer-copy {
   color: #fbfbfb;
-  font-family: "Lato";
   font-size: 16px;
 }
 
@@ -426,7 +417,7 @@ body {
 .social-item {
   width: 32px;
   height: 32px;
-  background-color: #fff;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -438,7 +429,7 @@ body {
 }
 
 .social-item:hover svg path {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .none {
