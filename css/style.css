@@ -359,7 +359,7 @@ body {
   background-color: rgba(244, 244, 244, 0.7);
   background-blend-mode: overlay;
   background-size: cover;
-  min-height: 438px;
+  height: 440px;
   display: flex;
   align-items: center;
   gap: 165px;
@@ -367,14 +367,44 @@ body {
 
 .subscrybe-comment {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 28px;
+}
+.subscrybe-comment__text {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
 }
 .subscrybe-comment__paragraf {
   color: #222224;
-  font-size: 20px;
+  font-size: 16px;
   font-style: italic;
-  width: 486px;
+  width: 390px;
+}
+.subscrybe-comment__sign {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 300;
+  color: #222224;
+}
+.subscrybe-comment__sign_font {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #f16d7f;
+}
+.subscrybe-comment__pag {
+  display: flex;
+  gap: 10px;
+}
+.subscrybe-comment__span {
+  width: 38px;
+  height: 4px;
+  background-color: #d6d6d6;
+}
+.subscrybe-comment__span_pink {
+  background-color: #f16d7f;
 }
 
 .subscrybe-form__text {
