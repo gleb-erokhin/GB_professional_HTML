@@ -17,6 +17,7 @@ $bgColorMain: #e8e8e8;
 $bgColorSecond: #222224;
 $borderColorSearch: #e6e6e6;
 $colorTextSearch: #a4a4a4;
+$colorAboutText: #898989;
 
 * {
     padding: 0;
@@ -517,6 +518,8 @@ body {
     padding-bottom: 89px;
 
     display: flex;
+    justify-content: space-between;
+    gap: 64px;
 
     &__about {
         display: flex;
@@ -526,6 +529,45 @@ body {
 
     &__texts {
         width: 430px;
+
+        line-height: 24px;
+        font-weight: 300;
+        letter-spacing: 0.025em;
+        color: $colorAboutText;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    &__title {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        letter-spacing: 0.025em;
+        color: $colorPink;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+
+    &__link {
+        text-decoration: none;
+
+        font-size: 16px;
+        line-height: 59px;
+        font-weight: 400;
+        letter-spacing: 0.025em;
+        color: $colorAboutText;
+    }
+
+    &__link_lh {
+        line-height: 42px;
     }
 }
 

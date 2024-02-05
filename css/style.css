@@ -426,6 +426,8 @@ body {
   padding-top: 109px;
   padding-bottom: 89px;
   display: flex;
+  justify-content: space-between;
+  gap: 64px;
 }
 .brand-container__about {
   display: flex;
@@ -434,6 +436,38 @@ body {
 }
 .brand-container__texts {
   width: 430px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #898989;
+}
+.brand-container__info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.brand-container__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #f16d7f;
+}
+.brand-container__links {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.brand-container__link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 59px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #898989;
+}
+.brand-container__link_lh {
+  line-height: 42px;
 }
 
 /* блок footer */
