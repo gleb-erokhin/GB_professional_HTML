@@ -208,6 +208,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 224px;
+    height: 100%;
 
     &__head {
         font-size: 60px;
@@ -215,6 +216,7 @@ body {
         font-weight: 900;
         letter-spacing: 0.025em;
         color: $colorMainText;
+        margin: 0;
     }
 
     &_midle {
