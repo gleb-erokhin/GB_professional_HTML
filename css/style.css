@@ -207,6 +207,10 @@ body {
   font-weight: 900;
   letter-spacing: 0.025em;
   color: #222222;
+  transition: transform 0.5s ease-in;
+}
+.offers__text:hover {
+  transform: scale(1.1);
 }
 .offers__text_title {
   font-size: 30px;
