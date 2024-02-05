@@ -512,7 +512,22 @@ body {
 }
 
 // Блок о компании
+.brand-container {
+    padding-top: 109px;
+    padding-bottom: 89px;
 
+    display: flex;
+
+    &__about {
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+    }
+
+    &__texts {
+        width: 430px;
+    }
+}
 
 /* блок footer */
 .footer {
