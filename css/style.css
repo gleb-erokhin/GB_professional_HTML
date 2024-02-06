@@ -135,11 +135,27 @@ body {
   justify-content: center;
 }
 
+.dropdown {
+  display: flex;
+  gap: 46px;
+  width: 846px;
+  height: 310px;
+  padding: 20px 25px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  top: 30px;
+  left: 65px;
+  border: 1px solid #222222;
+  box-sizing: initial;
+}
+
 .menu {
   display: flex;
   justify-content: center;
   gap: 48px;
   background-color: 1140px;
+  position: relative;
 }
 .menu__list {
   line-height: 26px;
@@ -151,6 +167,25 @@ body {
 .menu__link {
   text-decoration: none;
   color: #222222;
+}
+.menu__link_drop {
+  line-height: 28px;
+  letter-spacing: 0.025em;
+  color: #646464;
+  text-transform: capitalize;
+}
+.menu__title {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #232323;
+}
+.menu__item {
+  display: flex;
+  flex-direction: column;
+  width: 235px;
 }
 
 .hero {
