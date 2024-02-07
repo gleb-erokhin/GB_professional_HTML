@@ -147,21 +147,6 @@ body {
   border-radius: 5px;
   position: absolute;
   border: 1px solid #a4a4a4;
-  box-sizing: initial;
-}
-.dropdown_mv {
-  top: 32px;
-  left: 14px;
-}
-.dropdown_home {
-  width: 245px;
-  top: 32px;
-  left: -70px;
-}
-.dropdown_last {
-  top: 32px;
-  right: 0;
-  left: auto;
 }
 
 .dropdown::before {
@@ -176,21 +161,6 @@ body {
   top: -9px;
   left: 85px;
   transform: rotate(45deg);
-}
-
-.dropdown_women::before {
-  top: -9px;
-  left: 180px;
-}
-
-.dropdown_last::before {
-  top: -9px;
-  left: 730px;
-}
-
-.last:hover {
-  right: 0;
-  left: auto;
 }
 
 .menu {
@@ -239,12 +209,6 @@ body {
 .menu__item_mv-up {
   grid-column: 3/4;
   grid-row: 1/2;
-}
-.menu__item_bg {
-  position: absolute;
-}
-.menu__item_img {
-  z-index: -1;
 }
 
 .hero {
