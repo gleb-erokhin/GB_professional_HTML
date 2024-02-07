@@ -197,11 +197,6 @@ body {
         top: 32px;
         left: 14px;
     }
-
-    &_woman::before {
-        top: -9px;
-        left: 45px;
-    }
 }
 
 .dropdown::before {
@@ -216,6 +211,11 @@ body {
     top: -9px;
     left: 85px;
     transform: rotate(45deg);
+}
+
+.dropdown_women::before {
+    top: -9px;
+    left: 180px;
 }
 
 
