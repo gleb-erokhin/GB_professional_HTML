@@ -142,9 +142,7 @@ body {
   row-gap: 14px;
   grid-template-rows: 155px 155px;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 846px;
-  height: 310px;
-  padding: 20px 25px;
+  padding: 20px;
   background-color: #ffffff;
   border-radius: 5px;
   position: absolute;

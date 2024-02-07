@@ -182,13 +182,12 @@ body {
     grid-template-rows: 155px 155px;
     grid-template-columns: 1fr 1fr 1fr;
 
-    width: 846px;
-    height: 310px;
-    padding: 20px 25px;
+    // width: 846px;
+    // height: 310px;
+    padding: 20px;
     background-color: $colortWite;
     border-radius: 5px;
     position: absolute;
-
 
     border: 1px solid $colorTextSearch;
     box-sizing: initial;
