@@ -176,7 +176,7 @@ body {
 
 // главное меню
 .dropdown {
-    display: grid;
+    display: none;
     column-gap: 46px;
     row-gap: 14px;
     grid-template-rows: 155px 155px;
@@ -188,20 +188,43 @@ body {
     background-color: $colortWite;
     border-radius: 5px;
     position: absolute;
-    top: 30px;
-    left: 65px;
+
 
     border: 1px solid $colorTextSearch;
     box-sizing: initial;
 
+    &_mv {
+        top: 32px;
+        left: 14px;
+    }
+
+    &_woman::before {
+        top: -9px;
+        left: 45px;
+    }
 }
+
+.dropdown::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    background-color: $colortWite;
+    border-left: 1px solid $colorTextSearch;
+    border-top: 1px solid $colorTextSearch;
+    top: -9px;
+    left: 85px;
+    transform: rotate(45deg);
+}
+
 
 .menu {
     display: flex;
     justify-content: center;
     gap: 48px;
     background-color: $contantWidth;
-    
+
     position: relative;
 
     &__list {
@@ -212,12 +235,15 @@ body {
         list-style: none;
     }
 
+    &__list:hover .dropdown {
+        display: grid;
+    }
+
     &__link {
         text-decoration: none;
         color: $colorMainText;
     }
 
-    
     // выпадающее меню
     &__link_drop {
         line-height: 28px;
@@ -225,7 +251,7 @@ body {
         color: #646464;
         text-transform: capitalize;
     }
-    
+
     &__title {
         border-bottom: 1px solid $bgColorMain;
         margin-bottom: 8px;
@@ -257,7 +283,6 @@ body {
 
     &__item_img {
         z-index: -1;
-        left: 600px;
     }
 }
 
