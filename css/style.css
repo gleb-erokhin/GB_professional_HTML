@@ -198,6 +198,13 @@ body {
   grid-column: 3/4;
   grid-row: 1/2;
 }
+.menu__item_bg {
+  position: absolute;
+}
+.menu__item_img {
+  z-index: -1;
+  left: 600px;
+}
 
 .hero {
   background-image: url(../img/main-photo.png);

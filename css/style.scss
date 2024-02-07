@@ -241,6 +241,7 @@ body {
         flex-direction: column;
         width: 235px;
     }
+
     &__item_mv-dwn {
         grid-column: 2 / 3;
     }
@@ -248,6 +249,15 @@ body {
     &__item_mv-up {
         grid-column: 3/4;
         grid-row: 1/2;
+    }
+
+    &__item_bg {
+        position: absolute;
+    }
+
+    &__item_img {
+        z-index: -1;
+        left: 600px;
     }
 }
 
