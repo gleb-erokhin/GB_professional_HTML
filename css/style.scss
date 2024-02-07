@@ -197,6 +197,18 @@ body {
         top: 32px;
         left: 14px;
     }
+
+    &_home {
+        width: 245px;
+        top: 32px;
+        left: -70px;
+    }
+
+    &_last {
+        top: 32px;
+        right: 0;
+        left: auto;
+    }
 }
 
 .dropdown::before {
@@ -218,6 +230,15 @@ body {
     left: 180px;
 }
 
+.dropdown_last::before {
+    top: -9px;
+    left: 730px;
+}
+
+.last:hover{
+    right: 0;
+    left: auto;
+}
 
 .menu {
     display: flex;
@@ -284,6 +305,7 @@ body {
     &__item_img {
         z-index: -1;
     }
+
 }
 
 // Блок с центральным фото

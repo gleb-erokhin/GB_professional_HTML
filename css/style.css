@@ -155,6 +155,16 @@ body {
   top: 32px;
   left: 14px;
 }
+.dropdown_home {
+  width: 245px;
+  top: 32px;
+  left: -70px;
+}
+.dropdown_last {
+  top: 32px;
+  right: 0;
+  left: auto;
+}
 
 .dropdown::before {
   content: "";
@@ -173,6 +183,16 @@ body {
 .dropdown_women::before {
   top: -9px;
   left: 180px;
+}
+
+.dropdown_last::before {
+  top: -9px;
+  left: 730px;
+}
+
+.last:hover {
+  right: 0;
+  left: auto;
 }
 
 .menu {
