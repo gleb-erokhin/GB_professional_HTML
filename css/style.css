@@ -136,8 +136,12 @@ body {
 }
 
 .dropdown {
-  display: flex;
-  gap: 46px;
+  display: grid;
+  -moz-column-gap: 46px;
+       column-gap: 46px;
+  row-gap: 14px;
+  grid-template-rows: 155px 155px;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 846px;
   height: 310px;
   padding: 20px 25px;
@@ -146,7 +150,7 @@ body {
   position: absolute;
   top: 30px;
   left: 65px;
-  border: 1px solid #222222;
+  border: 1px solid #a4a4a4;
   box-sizing: initial;
 }
 
@@ -175,8 +179,8 @@ body {
   text-transform: capitalize;
 }
 .menu__title {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 8px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 8px;
   line-height: 32px;
   text-transform: uppercase;
   letter-spacing: 0.025em;
@@ -186,6 +190,13 @@ body {
   display: flex;
   flex-direction: column;
   width: 235px;
+}
+.menu__item_mv-dwn {
+  grid-column: 2/3;
+}
+.menu__item_mv-up {
+  grid-column: 3/4;
+  grid-row: 1/2;
 }
 
 .hero {

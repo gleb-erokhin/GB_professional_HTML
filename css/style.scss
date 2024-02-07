@@ -176,8 +176,11 @@ body {
 
 // главное меню
 .dropdown {
-    display: flex;
-    gap: 46px;
+    display: grid;
+    column-gap: 46px;
+    row-gap: 14px;
+    grid-template-rows: 155px 155px;
+    grid-template-columns: 1fr 1fr 1fr;
 
     width: 846px;
     height: 310px;
@@ -188,8 +191,9 @@ body {
     top: 30px;
     left: 65px;
 
-    border: 1px solid #222222;
+    border: 1px solid $colorTextSearch;
     box-sizing: initial;
+
 }
 
 .menu {
@@ -197,7 +201,7 @@ body {
     justify-content: center;
     gap: 48px;
     background-color: $contantWidth;
-
+    
     position: relative;
 
     &__list {
@@ -213,17 +217,18 @@ body {
         color: $colorMainText;
     }
 
+    
+    // выпадающее меню
     &__link_drop {
         line-height: 28px;
         letter-spacing: 0.025em;
         color: #646464;
         text-transform: capitalize;
     }
-
-    // выпадающее меню
+    
     &__title {
-        border-bottom: 1px solid #ccc;
-        padding-bottom: 8px;
+        border-bottom: 1px solid $bgColorMain;
+        margin-bottom: 8px;
 
         line-height: 32px;
         text-transform: uppercase;
@@ -235,7 +240,14 @@ body {
         display: flex;
         flex-direction: column;
         width: 235px;
+    }
+    &__item_mv-dwn {
+        grid-column: 2 / 3;
+    }
 
+    &__item_mv-up {
+        grid-column: 3/4;
+        grid-row: 1/2;
     }
 }
 
