@@ -174,7 +174,7 @@ body {
     justify-content: center;
 }
 
-// главное меню
+// Выпадающий список
 .dropdown {
     display: none;
     column-gap: 46px;
@@ -190,6 +190,7 @@ body {
     border: 1px solid $colorTextSearch;
 }
 
+// псевдоэлемент для создания стрелки указателя
 .dropdown::before {
     content: '';
     width: 15px;
@@ -267,6 +268,12 @@ body {
         grid-column: 3/4;
         grid-row: 1/2;
     }
+}
+
+// разворот последнего меню
+.last:hover .dropdown {
+    right: 0;
+    left: auto;
 }
 
 // Блок с центральным фото

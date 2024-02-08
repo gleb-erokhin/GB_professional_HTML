@@ -211,6 +211,11 @@ body {
   grid-row: 1/2;
 }
 
+.last:hover .dropdown {
+  right: 0;
+  left: auto;
+}
+
 .hero {
   background-image: url(../img/main-photo.png);
   background-color: #e8e8e8;
