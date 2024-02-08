@@ -188,6 +188,23 @@ body {
     position: absolute;
 
     border: 1px solid $colorTextSearch;
+    top: 32px;
+    left: 65px;
+
+    &_home {
+        left: -75px;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
+
+    &_man {
+        left: 14px;
+    }
+
+    &_woman {
+        left: 105px;
+    }
+
 }
 
 // псевдоэлемент для создания стрелки указателя
@@ -273,6 +290,25 @@ body {
 // разворот последнего меню
 .last:hover .dropdown {
     right: 0;
+    left: auto;
+}
+
+.last:hover .dropdown::before {
+    right: 34px;
+    left: auto;
+}
+
+.last_point:hover .dropdown::before {
+    right: 150px;
+}
+
+.kids:hover .dropdown::before {
+    right: 602px;
+    left: auto;
+}
+
+.acc:hover .dropdown::before {
+    right: 492px;
     left: auto;
 }
 

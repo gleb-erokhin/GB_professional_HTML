@@ -147,6 +147,19 @@ body {
   border-radius: 5px;
   position: absolute;
   border: 1px solid #a4a4a4;
+  top: 32px;
+  left: 65px;
+}
+.dropdown_home {
+  left: -75px;
+  grid-template-columns: none;
+  grid-template-rows: none;
+}
+.dropdown_man {
+  left: 14px;
+}
+.dropdown_woman {
+  left: 105px;
 }
 
 .dropdown::before {
@@ -213,6 +226,25 @@ body {
 
 .last:hover .dropdown {
   right: 0;
+  left: auto;
+}
+
+.last:hover .dropdown::before {
+  right: 34px;
+  left: auto;
+}
+
+.last_point:hover .dropdown::before {
+  right: 150px;
+}
+
+.kids:hover .dropdown::before {
+  right: 602px;
+  left: auto;
+}
+
+.acc:hover .dropdown::before {
+  right: 492px;
   left: auto;
 }
 
