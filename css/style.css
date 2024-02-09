@@ -130,6 +130,16 @@ body {
   border: 1px solid #e6e6e6;
   border-radius: 3px 0px 0px 3px;
 }
+.drop__item {
+  width: 262px;
+  height: 530px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  z-index: 1;
+}
+.drop[open] .drop__summary {
+  color: #f16d7f;
+}
 .drop__summary {
   display: flex;
   align-items: center;

@@ -169,6 +169,18 @@ body {
     border: 1px solid $borderColorSearch;
     border-radius: 3px 0px 0px 3px;
 
+    &__item {
+        width: 262px;
+        height: 530px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        z-index: 1;
+    }
+
+    &[open] .drop__summary {
+        color: $colorPink;
+    }
+
     &__summary {
         display: flex;
         align-items: center;
