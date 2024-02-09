@@ -194,21 +194,6 @@ body {
     border: 1px solid $colorTextSearch;
     top: 32px;
     left: 65px;
-
-    // &_home {
-    //     left: -75px;
-    //     grid-template-columns: none;
-    //     grid-template-rows: none;
-    // }
-
-    // &_man {
-    //     left: 14px;
-    // }
-
-    // &_woman {
-    //     left: 105px;
-    // }
-
 }
 
 // псевдоэлемент для создания стрелки указателя
@@ -301,20 +286,6 @@ body {
     left: auto;
 }
 
-// .last_point:hover .dropdown::before {
-//     right: 150px;
-// }
-
-// .kids:hover .dropdown::before {
-//     right: 602px;
-//     left: auto;
-// }
-
-// .acc:hover .dropdown::before {
-//     right: 492px;
-//     left: auto;
-// }
-
 // Блок с центральным фото
 .hero {
     background-image: url(../img/main-photo.png);
@@ -373,6 +344,7 @@ body {
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
+        transition: transform 0.5s ease-in;
     }
 
     &__text {
@@ -387,11 +359,10 @@ body {
         font-weight: 900;
         letter-spacing: 0.025em;
         color: $colorMainText;
-        transition: transform 0.5s ease-in;
     }
 
-    &__text:hover {
-        transform: scale(1.1);
+    &__item:hover {
+        transform: translateY(-1%);
     }
 
     &__text_title {

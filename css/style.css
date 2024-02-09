@@ -135,6 +135,10 @@ body {
   justify-content: center;
 }
 
+.menu__list {
+  position: relative;
+}
+
 .dropdown {
   display: none;
   -moz-column-gap: 46px;
@@ -149,17 +153,6 @@ body {
   border: 1px solid #a4a4a4;
   top: 32px;
   left: 65px;
-}
-.dropdown_home {
-  left: -75px;
-  grid-template-columns: none;
-  grid-template-rows: none;
-}
-.dropdown_man {
-  left: 14px;
-}
-.dropdown_woman {
-  left: 105px;
 }
 
 .dropdown::before {
@@ -181,7 +174,6 @@ body {
   justify-content: center;
   gap: 48px;
   background-color: 1140px;
-  position: relative;
 }
 .menu__list {
   line-height: 26px;
@@ -234,20 +226,6 @@ body {
   left: auto;
 }
 
-.last_point:hover .dropdown::before {
-  right: 150px;
-}
-
-.kids:hover .dropdown::before {
-  right: 602px;
-  left: auto;
-}
-
-.acc:hover .dropdown::before {
-  right: 492px;
-  left: auto;
-}
-
 .hero {
   background-image: url(../img/main-photo.png);
   background-color: #e8e8e8;
@@ -296,6 +274,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+  transition: transform 0.5s ease-in;
 }
 .offers__text {
   padding: 16px 18px;
@@ -308,10 +287,9 @@ body {
   font-weight: 900;
   letter-spacing: 0.025em;
   color: #222222;
-  transition: transform 0.5s ease-in;
 }
-.offers__text:hover {
-  transform: scale(1.1);
+.offers__item:hover {
+  transform: translateY(-1%);
 }
 .offers__text_title {
   font-size: 30px;
