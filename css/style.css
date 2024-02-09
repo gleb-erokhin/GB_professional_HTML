@@ -58,7 +58,6 @@ body {
 }
 .main-header__left {
   display: flex;
-  gap: 13px;
   align-items: center;
 }
 .main-header__brand {
@@ -68,6 +67,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: #222222;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 .main-header__brand_red {
   color: #f16d7f;

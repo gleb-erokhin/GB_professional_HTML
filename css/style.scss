@@ -78,7 +78,6 @@ body {
     // Левая часть, лого, бренд, поиск
     &__left {
         display: flex;
-        gap: 13px;
         align-items: center;
     }
 
@@ -89,6 +88,8 @@ body {
         text-transform: uppercase;
         letter-spacing: 0.025em;
         color: $colorMainText;
+        padding-left: 13px;
+        padding-right: 13px;
     }
 
     &__brand_red {
