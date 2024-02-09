@@ -101,18 +101,6 @@ body {
         align-items: center;
     }
 
-    // кнопка обзор
-    &__button {
-        width: 87px;
-        height: 38px;
-        padding-left: 14px;
-        padding-right: 10px;
-        background-color: $bgColorMain;
-        background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
-        border: 1px solid $borderColorSearch;
-        border-radius: 3px 0px 0px 3px;
-    }
-
     // общие параметры инпута
     &__input {
         height: 38px;
@@ -167,6 +155,23 @@ body {
     fill: $colorPink;
 }
 
+// выпадающая кнопка в блоке поиска
+.drop {
+
+    // кнопка обзор
+    &__button {
+        display: flex;
+        width: 87px;
+        height: 38px;
+        padding-left: 14px;
+        padding-right: 10px;
+        background-color: $bgColorMain;
+        background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
+        border: 1px solid $borderColorSearch;
+        border-radius: 3px 0px 0px 3px;
+    }
+}
+
 // Главная навигация сайта
 .navigation {
     height: 51px;
@@ -218,7 +223,7 @@ body {
     justify-content: center;
     gap: 48px;
     background-color: $contantWidth;
-   
+
 
     &__list {
         line-height: 26px;
