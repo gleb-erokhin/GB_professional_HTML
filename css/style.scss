@@ -228,7 +228,11 @@ body {
 
     border: 1px solid $colorTextSearch;
     top: 32px;
-    left: 65px;
+    left: -87px;
+
+    .acc {
+        left: -165px;
+    }
 }
 
 // псевдоэлемент для создания стрелки указателя
@@ -320,6 +324,7 @@ body {
     right: 34px;
     left: auto;
 }
+
 
 // Блок с центральным фото
 .hero {

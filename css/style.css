@@ -170,7 +170,10 @@ body {
   position: absolute;
   border: 1px solid #a4a4a4;
   top: 32px;
-  left: 65px;
+  left: -87px;
+}
+.dropdown .acc {
+  left: -165px;
 }
 
 .dropdown::before {
