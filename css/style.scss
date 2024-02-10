@@ -278,7 +278,7 @@ body {
     }
 
     &__close {
-        padding-top: 39px;
+        padding-top: 35px;
         padding-left: 52px;
     }
 
@@ -310,18 +310,31 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 11px;
     }
 
     &__button-account_link {
+        display: block;
+        text-align: center;
         text-decoration: none;
         line-height: 1.2;
         font-weight: 700;
         text-transform: uppercase;
-        // color: $colorPink;
+        color: $colorPink;
 
-        padding: 19px 70px;
+        width: 225px;
+        padding: 19px 0;
         border: 1px solid #f16d7f;
         box-sizing: border-box;
+    }
+
+    &__button-account_gray {
+        border: 1px solid #eaeaea;
+        color: $colorTextSearch;
+    }
+
+    &__button-account_hover:hover {
+        color: $colorTextSearch;
     }
 
     // модификатор изменения цвета при открытии кнопки Аккаунт

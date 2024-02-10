@@ -219,7 +219,7 @@ body {
   font-size: 10px;
 }
 .drop__close {
-  padding-top: 39px;
+  padding-top: 35px;
   padding-left: 52px;
 }
 .drop hr {
@@ -245,15 +245,27 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 11px;
 }
 .drop__button-account_link {
+  display: block;
+  text-align: center;
   text-decoration: none;
   line-height: 1.2;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 19px 70px;
+  color: #f16d7f;
+  width: 225px;
+  padding: 19px 0;
   border: 1px solid #f16d7f;
   box-sizing: border-box;
+}
+.drop__button-account_gray {
+  border: 1px solid #eaeaea;
+  color: #a4a4a4;
+}
+.drop__button-account_hover:hover {
+  color: #a4a4a4;
 }
 
 .navigation {
