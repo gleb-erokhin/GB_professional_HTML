@@ -225,18 +225,56 @@ body {
 
     // стили выпадающего меню по кнопке Аккаунт
     &__items_account {
-        padding: 17px;
+        padding: 20px 17px;
         top: 54px;
         left: -50%;
     }
 
+    &__item_buy {
+        display: flex;
+    }
+
     &__item-data {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 14px;
     }
 
     &__item-text {
+        font-size: 12px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $colorMainText;
     }
-    
-    &__item-price {
+
+    &__item-star {
+        display: flex;
+    }
+
+    &_star {
+        font-size: 12px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: #e4af48;
+    }
+
+    &__item_price {
+        font-weight: 400;
+        color: $colorPink;
+    }
+
+    &__item_close {
+        font-size: 16px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: #c0c0c0;
+    }
+
+    &__close {
+        padding-top: 39px;
+        padding-left: 52px;
     }
 
     // модификатор изменения цвета при открытии кнопки Аккаунт

@@ -175,10 +175,50 @@ body {
   font-size: 15px;
 }
 .drop__items_account {
-  padding: 17px;
+  padding: 20px 17px;
   top: 54px;
   left: -50%;
 }
+.drop__item_buy {
+  display: flex;
+}
+.drop__item-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 14px;
+}
+.drop__item-text {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+.drop__item-star {
+  display: flex;
+}
+.drop_star {
+  font-size: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #e4af48;
+}
+.drop__item_price {
+  font-weight: 400;
+  color: #f16d7f;
+}
+.drop__item_close {
+  font-size: 16px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #c0c0c0;
+}
+.drop__close {
+  padding-top: 39px;
+  padding-left: 52px;
+}
+
 .navigation {
   height: 51px;
   align-items: center;
