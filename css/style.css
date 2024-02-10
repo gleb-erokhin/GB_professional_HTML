@@ -124,8 +124,8 @@ body {
 }
 
 .drop {
-  padding: 8px 10px 8px 15px;
-  width: 87px;
+  position: relative;
+  padding: 8px 10px 15px;
   height: 38px;
   display: flex;
   align-items: center;
@@ -134,12 +134,22 @@ body {
   border: 1px solid #e6e6e6;
   border-radius: 3px 0px 0px 3px;
 }
-.drop__item {
+.drop__items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   width: 262px;
-  height: 530px;
   background-color: #ffffff;
+  border: 1px solid #e6e6e6;
   border-radius: 5px;
   z-index: 1;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+}
+.drop__item {
+  display: flex;
+  flex-direction: column;
 }
 .drop[open] .drop__summary {
   color: #f16d7f;
