@@ -172,9 +172,6 @@ body {
   top: 32px;
   left: -87px;
 }
-.dropdown .acc {
-  left: -165px;
-}
 
 .dropdown::before {
   content: "";
@@ -244,6 +241,16 @@ body {
 
 .last:hover .dropdown::before {
   right: 34px;
+  left: auto;
+}
+
+.acc:hover .dropdown {
+  left: -450px;
+  right: auto;
+}
+
+.acc:hover .dropdown::before {
+  right: 340px;
   left: auto;
 }
 

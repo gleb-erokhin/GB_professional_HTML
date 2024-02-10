@@ -229,10 +229,6 @@ body {
     border: 1px solid $colorTextSearch;
     top: 32px;
     left: -87px;
-
-    .acc {
-        left: -165px;
-    }
 }
 
 // псевдоэлемент для создания стрелки указателя
@@ -325,6 +321,15 @@ body {
     left: auto;
 }
 
+.acc:hover .dropdown {
+    left: -450px;
+    right: auto;
+}
+
+.acc:hover .dropdown::before {
+    right: 340px;
+    left: auto;
+}
 
 // Блок с центральным фото
 .hero {
