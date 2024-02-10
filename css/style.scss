@@ -54,6 +54,10 @@ body {
     color: $colorPink;
 }
 
+.menu__link:hover {
+    color: $colorPink;
+}
+
 /* Общее центрирование */
 .center {
     padding-left: calc(50% - $contantWidth / 2);
@@ -242,7 +246,7 @@ body {
     border-left: 1px solid $colorTextSearch;
     border-top: 1px solid $colorTextSearch;
     top: -9px;
-    left: 85px;
+    left: 98px;
     transform: rotate(45deg);
 }
 
@@ -321,6 +325,7 @@ body {
     left: auto;
 }
 
+// настройка позиционирования accesories
 .acc:hover .dropdown {
     left: -450px;
     right: auto;
@@ -328,6 +333,16 @@ body {
 
 .acc:hover .dropdown::before {
     right: 340px;
+    left: auto;
+}
+
+.cntr:hover .dropdown {
+    left: -450px;
+    right: auto;
+}
+
+.cntr:hover .dropdown::before {
+    right: 365px;
     left: auto;
 }
 
