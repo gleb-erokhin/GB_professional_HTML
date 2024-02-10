@@ -630,6 +630,15 @@ body {
     }
 }
 
+.products-item:hover {
+    box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+}
+
+.products-item:hover .products-item__img-card {
+    filter: brightness(30%);
+    transition: all 0.4s ease-in-out;
+}
+
 // Кнопка Все продукты
 .products-button {
     display: flex;
