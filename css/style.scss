@@ -176,6 +176,10 @@ body {
         border-radius: 3px 0px 0px 3px;
     }
 
+        &[open] {
+        background-color: $bgColorMain;
+    }
+
     &_account {
         width: 130px;
         height: 38px;
@@ -183,6 +187,7 @@ body {
         color: $colortWite;
         font-size: 15px;
     }
+
 
     &__items {
         display: flex;
@@ -212,18 +217,15 @@ body {
         display: flex;
         align-items: center;
         gap: 8px;
+        cursor: pointer;
     }
 
     // модификатор изменения цвета при открытии кнопки Аккаунт
-    &[open] .drop_summary {
-        color: $colorPink;
-    }
+    // &[open] .drop__summary_account {
+    //     background-color: $colorOption;
+    // }
 
-    &_summary {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
+
 }
 
 

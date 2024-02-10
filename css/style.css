@@ -136,6 +136,9 @@ body {
   border: 1px solid #e6e6e6;
   border-radius: 3px 0px 0px 3px;
 }
+.drop[open] {
+  background-color: #e8e8e8;
+}
 .drop_account {
   width: 130px;
   height: 38px;
@@ -167,14 +170,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-}
-.drop[open] .drop_summary {
-  color: #f16d7f;
-}
-.drop_summary {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  cursor: pointer;
 }
 
 .navigation {
