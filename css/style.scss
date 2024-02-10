@@ -193,13 +193,22 @@ body {
         flex-direction: column;
         gap: 30px;
         width: 262px;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    &__items_browse {
         background-color: #ffffff;
         border: 1px solid $borderColorSearch;
         border-radius: 5px;
-        z-index: 1;
         padding: 20px;
-        position: absolute;
         left: 0;
+    }
+
+    &__items_account {
+        top: 54px;
+        left: -50%;
+        width: 262px;
     }
 
     &__item {
