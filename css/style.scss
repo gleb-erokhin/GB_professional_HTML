@@ -143,13 +143,13 @@ body {
     }
 
     &__account {
-        background-color: $colorPink;
         display: block;
         border: none;
+        box-sizing: border-box;
+        
         width: 130px;
         height: 38px;
-        box-sizing: border-box;
-
+        background-color: $colorPink;
         color: $colortWite;
         font-size: 15px;
     }
@@ -159,10 +159,10 @@ body {
     fill: $colorPink;
 }
 
-// выпадающая кнопка в блоке поиска
+// выпадающая кнопка в блоке поиска и кнопка профиля
 .drop {
     position: relative;
-    padding: 8px 10px 15px;
+    padding: 8px 15px 15px;
     height: 38px;
 
     display: flex;
@@ -174,6 +174,14 @@ body {
         background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
         border: 1px solid $borderColorSearch;
         border-radius: 3px 0px 0px 3px;
+    }
+
+    &_account {
+        width: 130px;
+        height: 38px;
+        background-color: $colorPink;
+        color: $colortWite;
+        font-size: 15px;
     }
 
     &__items {
@@ -195,6 +203,7 @@ body {
         flex-direction: column;
     }
 
+    // модификатор изменения цвета при открытии кнопки Обзор
     &[open] .drop__summary {
         color: $colorPink;
     }
@@ -204,19 +213,20 @@ body {
         align-items: center;
         gap: 8px;
     }
+
+    // модификатор изменения цвета при открытии кнопки Аккаунт
+    &[open] .drop_summary {
+        color: $colorPink;
+    }
+
+    &_summary {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
 }
 
-.drop__account {
-    background-color: $colorPink;
-    display: block;
-    border: none;
-    width: 130px;
-    height: 38px;
-    box-sizing: border-box;
 
-    color: $colortWite;
-    font-size: 15px;
-}
 
 // Главная навигация сайта
 .navigation {
