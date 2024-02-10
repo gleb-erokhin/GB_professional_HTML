@@ -146,7 +146,7 @@ body {
         display: block;
         border: none;
         box-sizing: border-box;
-        
+
         width: 130px;
         height: 38px;
         background-color: $colorPink;
@@ -176,7 +176,7 @@ body {
         border-radius: 3px 0px 0px 3px;
     }
 
-        &[open] {
+    &[open] {
         background-color: $bgColorMain;
     }
 
@@ -187,7 +187,6 @@ body {
         color: $colortWite;
         font-size: 15px;
     }
-
 
     &__items {
         display: flex;
@@ -224,11 +223,7 @@ body {
     // &[open] .drop__summary_account {
     //     background-color: $colorOption;
     // }
-
-
 }
-
-
 
 // Главная навигация сайта
 .navigation {
