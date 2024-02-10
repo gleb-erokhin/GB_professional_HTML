@@ -491,6 +491,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 19px;
+  position: relative;
 }
 .products-item img {
   width: 100%;
@@ -507,6 +508,24 @@ body {
   line-height: 1.2;
   font-weight: 700;
   text-transform: uppercase;
+}
+.products-item__card {
+  position: absolute;
+  top: 98px;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  pointer-events: none;
+}
+.products-item__link {
+  display: flex;
+  text-decoration: none;
+  gap: 8px;
+  padding: 8px 15px 8px 8px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  pointer-events: all;
 }
 
 .products-item:hover {
