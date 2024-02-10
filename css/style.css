@@ -109,12 +109,12 @@ body {
   align-items: center;
 }
 .main-header__account {
-  background-color: #f16d7f;
   display: block;
   border: none;
+  box-sizing: border-box;
   width: 130px;
   height: 38px;
-  box-sizing: border-box;
+  background-color: #f16d7f;
   color: #ffffff;
   font-size: 15px;
 }
@@ -125,10 +125,18 @@ body {
 
 .drop {
   position: relative;
-  padding: 8px 10px 15px;
+  padding: 8px 15px 15px;
   height: 38px;
   display: flex;
   align-items: center;
+}
+.drop__summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.drop_browse {
   background-color: #e8e8e8;
   background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
   border: 1px solid #e6e6e6;
@@ -139,12 +147,14 @@ body {
   flex-direction: column;
   gap: 30px;
   width: 262px;
+  position: absolute;
+  z-index: 1;
   background-color: #ffffff;
   border: 1px solid #e6e6e6;
   border-radius: 5px;
-  z-index: 1;
+}
+.drop__items_browse {
   padding: 20px;
-  position: absolute;
   left: 0;
 }
 .drop__item {
@@ -154,10 +164,108 @@ body {
 .drop[open] .drop__summary {
   color: #f16d7f;
 }
-.drop__summary {
+.drop[open] {
+  background-color: #e8e8e8;
+}
+.drop_account {
+  width: 130px;
+  height: 38px;
+  background-color: #f16d7f;
+  color: #ffffff;
+  font-size: 15px;
+}
+.drop__items_account {
+  padding: 20px 17px;
+  top: 54px;
+  left: -50%;
+  gap: 0;
+}
+.drop__item_buy {
   display: flex;
+}
+.drop__item-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 14px;
+}
+.drop__item-text {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+.drop__item-star {
+  display: flex;
+}
+.drop_star {
+  font-size: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #e4af48;
+}
+.drop__item_price {
+  font-weight: 400;
+  color: #f16d7f;
+}
+.drop__item_close {
+  font-size: 16px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #c0c0c0;
+}
+.drop__span {
+  font-size: 10px;
+}
+.drop__close {
+  padding-top: 35px;
+  padding-left: 52px;
+}
+.drop hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgba(237, 237, 237, 0.74);
+  height: 1px;
+  border: none;
+}
+.drop__total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.drop__total_price {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+.drop__button-account {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 11px;
+}
+.drop__button-account_link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f16d7f;
+  width: 225px;
+  padding: 19px 0;
+  border: 1px solid #f16d7f;
+  box-sizing: border-box;
+}
+.drop__button-account_gray {
+  border: 1px solid #eaeaea;
+  color: #a4a4a4;
+}
+.drop__button-account_hover:hover {
+  color: #a4a4a4;
 }
 
 .navigation {
