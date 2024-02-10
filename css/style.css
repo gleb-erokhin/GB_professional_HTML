@@ -178,6 +178,7 @@ body {
   padding: 20px 17px;
   top: 54px;
   left: -50%;
+  gap: 0;
 }
 .drop__item_buy {
   display: flex;
@@ -214,9 +215,30 @@ body {
   text-transform: uppercase;
   color: #c0c0c0;
 }
+.drop__span {
+  font-size: 10px;
+}
 .drop__close {
   padding-top: 39px;
   padding-left: 52px;
+}
+.drop hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgba(237, 237, 237, 0.74);
+  height: 1px;
+  border: none;
+}
+.drop__total {
+  display: flex;
+  justify-content: space-between;
+}
+.drop__total_price {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
 }
 
 .navigation {
