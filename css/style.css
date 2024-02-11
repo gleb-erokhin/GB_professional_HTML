@@ -294,6 +294,10 @@ body {
   top: 32px;
   left: -87px;
 }
+.dropdown_home {
+  grid-template-columns: none;
+  grid-template-rows: none;
+}
 
 .dropdown::before {
   content: "";
@@ -347,6 +351,26 @@ body {
   display: flex;
   flex-direction: column;
   width: 235px;
+}
+.menu__item_bg {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.menu__item_img {
+  width: 100%;
+}
+.menu__item_sale {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  width: 74px;
+  position: absolute;
+  display: flex;
 }
 .menu__item_mv-dwn {
   grid-column: 2/3;
