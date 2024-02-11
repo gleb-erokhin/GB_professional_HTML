@@ -396,7 +396,6 @@ body {
 
 .hero-text {
   display: flex;
-  flex-direction: column;
   padding-top: 224px;
   height: 100%;
 }
@@ -413,6 +412,16 @@ body {
 }
 .hero-text_red {
   color: #f16d7f;
+}
+.hero-text__block {
+  display: flex;
+  flex-direction: column;
+}
+.hero-text__span {
+  border: 8px solid #f16d7f;
+  margin-right: 12px;
+  height: 97px;
+  margin-top: 15px;
 }
 
 .offers {
