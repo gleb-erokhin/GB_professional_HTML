@@ -544,17 +544,61 @@ body {
     padding-bottom: 110px;
 
     display: flex;
+    gap: 50px;
 
     // блок с каталогом
     .category {
-
+        &__list {
+            width: 243px;
+        }
     }
 
     // блок с фильтрами и товарами
     .product {
 
+        &_type {
+            line-height: 26px;
+            color: #6f6e6e;
+        }
+
+        &__filter {
+            display: flex;
+            gap: 50px;
+        }
+
+        .product-trending {
+            width: 178px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .product-size {
+            width: 235px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        &__input {
+            display: flex;
+            column-gap: 30px;
+            flex-wrap: wrap;
+            row-gap: 13px;
+        }
+
+        &__lable {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #6f6e6e;
+        }
     }
- }
+}
+
 
 // Блок с центральным фото
 .hero {

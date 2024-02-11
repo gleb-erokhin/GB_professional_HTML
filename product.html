@@ -416,8 +416,8 @@
     <!-- Блок продукты и фильтры -->
     <section class="category-product center">
         <div class="category">
-            <details>
-                <summary>Category</summary>
+            <details class="category__list">
+                <summary class="category__summary">Category</summary>
                 Lorem ipsum dolor sit amet.
             </details>
         </div>
@@ -427,18 +427,20 @@
             <div class="product__filter">
                 <div class="product-trending">
                     <h3 class="product_title">Trending now</h3>
-                    <div class="product__type">Bohemian    |    Floral    |    Lace 
-                        Floral    |    Lace    |    Bohemian</div>
+                    <div class="product_type">Bohemian | Floral | Lace
+                        Floral | Lace | Bohemian</div>
                 </div>
                 <div class="product-size">
                     <h3 class="product_title">Size</h3>
-                    <input type="checkbox"><label for="">XXS</label>
-                    <input type="checkbox"><label for="">XS</label>
-                    <input type="checkbox"><label for="">S</label>
-                    <input type="checkbox"><label for="">M</label>
-                    <input type="checkbox"><label for="">L</label>
-                    <input type="checkbox"><label for="">XL</label>
-                    <input type="checkbox"><label for="">XXL</label>
+                    <div class="product__input">
+                        <label class="product__lable" for=""><input type="checkbox">XXS</label>
+                        <label class="product__lable" for=""><input type="checkbox">XS</label>
+                        <label class="product__lable" for=""><input type="checkbox">S</label>
+                        <label class="product__lable" for=""><input type="checkbox">M</label>
+                        <label class="product__lable" for=""><input type="checkbox">L</label>
+                        <label class="product__lable" for=""><input type="checkbox">XL</label>
+                        <label class="product__lable" for=""><input type="checkbox">XXL</label>
+                    </div>
                 </div>
                 <div class="product-price">
                     <h3 class="product_title">Price</h3>
