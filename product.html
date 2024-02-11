@@ -414,17 +414,46 @@
     <!-- // Блок хлебные крошки -->
 
     <!-- Блок продукты и фильтры -->
-    <section class="filter-product center">
-        <div class="filter">
+    <section class="category-product center">
+        <div class="category">
             <details>
                 <summary>Category</summary>
                 Lorem ipsum dolor sit amet.
             </details>
         </div>
+        <!-- блок с фильтрами и карточками -->
         <div class="product">
-            <div class="product__filter"></div>
+            <!-- блок с фильтрами и чекбоксом -->
+            <div class="product__filter">
+                <div class="product-trending">
+                    <h3 class="product_title">Trending now</h3>
+                    <div class="product__type">Bohemian    |    Floral    |    Lace 
+                        Floral    |    Lace    |    Bohemian</div>
+                </div>
+                <div class="product-size">
+                    <h3 class="product_title">Size</h3>
+                    <input type="checkbox"><label for="">XXS</label>
+                    <input type="checkbox"><label for="">XS</label>
+                    <input type="checkbox"><label for="">S</label>
+                    <input type="checkbox"><label for="">M</label>
+                    <input type="checkbox"><label for="">L</label>
+                    <input type="checkbox"><label for="">XL</label>
+                    <input type="checkbox"><label for="">XXL</label>
+                </div>
+                <div class="product-price">
+                    <h3 class="product_title">Price</h3>
+                    <input type="range"><label for=""></label>
+                    <div class="product-range">
+                        <div class="product-range_start">$52</div>
+                        <div class="product-range_end">$400</div>
+                    </div>
+                </div>
+            </div>
+            <!-- блок с сортировкой -->
             <div class="product__sort"></div>
+            <!-- блок карточек товаров -->
             <div class="product__cards"></div>
+            <!-- блок с кнопками -->
             <div class="product__button"></div>
 
         </div>

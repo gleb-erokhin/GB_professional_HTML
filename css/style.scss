@@ -539,18 +539,20 @@ body {
     }
 }
 
-.filter-product {
+.category-product {
     padding-top: 60px;
     padding-bottom: 110px;
 
+    display: flex;
+
     // блок с каталогом
-    .filter {
+    .category {
 
     }
 
     // блок с фильтрами и товарами
     .product {
-        
+
     }
  }
 
