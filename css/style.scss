@@ -607,12 +607,16 @@ body {
 .products-item {
     display: flex;
     flex-direction: column;
-    gap: 19px;
 
     position: relative;
 
     img {
         width: 100%;
+    }
+
+    // блок текста под фото с ценой
+    &__text {
+        padding-top: 19px;
     }
 
     &__head {
@@ -631,6 +635,7 @@ body {
         text-transform: uppercase;
     }
 
+    // кнопка для добавления в корзину
     &__card {
         position: absolute;
         top: 98px;
@@ -641,9 +646,9 @@ body {
         pointer-events: none;
     }
 
-
     &__link {
         display: flex;
+        align-items: center;
         text-decoration: none;
         gap: 8px;
         padding: 8px 15px 8px 8px;
@@ -651,6 +656,12 @@ body {
         border: 1px solid #ffffff;
         color: $colortWite;
         pointer-events: all;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    &__link:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px 0 rgba(235, 230, 230, 0.967);
     }
 
 }
@@ -662,6 +673,10 @@ body {
 .products-item:hover .products-item__img-card {
     filter: brightness(30%);
     transition: all 0.4s ease-in-out;
+}
+
+.products-item:hover .products-item__card {
+    display: flex;
 }
 
 // Кнопка Все продукты

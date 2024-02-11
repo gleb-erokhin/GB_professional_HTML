@@ -490,11 +490,13 @@ body {
 .products-item {
   display: flex;
   flex-direction: column;
-  gap: 19px;
   position: relative;
 }
 .products-item img {
   width: 100%;
+}
+.products-item__text {
+  padding-top: 19px;
 }
 .products-item__head {
   padding-bottom: 19px;
@@ -519,6 +521,7 @@ body {
 }
 .products-item__link {
   display: flex;
+  align-items: center;
   text-decoration: none;
   gap: 8px;
   padding: 8px 15px 8px 8px;
@@ -526,6 +529,11 @@ body {
   border: 1px solid #ffffff;
   color: #ffffff;
   pointer-events: all;
+  transition: transform 0.5s ease-in-out;
+}
+.products-item__link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 0 rgba(235, 230, 230, 0.967);
 }
 
 .products-item:hover {
@@ -535,6 +543,10 @@ body {
 .products-item:hover .products-item__img-card {
   filter: brightness(30%);
   transition: all 0.4s ease-in-out;
+}
+
+.products-item:hover .products-item__card {
+  display: flex;
 }
 
 .products-button {
