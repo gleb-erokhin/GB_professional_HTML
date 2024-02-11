@@ -433,6 +433,10 @@ body {
   color: #636363;
 }
 
+.filter-product {
+  padding-top: 60px;
+  padding-bottom: 110px;
+}
 .hero {
   background-image: url(../img/main-photo.png);
   background-color: #e8e8e8;
