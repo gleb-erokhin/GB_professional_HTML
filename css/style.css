@@ -293,6 +293,7 @@ body {
   border: 1px solid #a4a4a4;
   top: 32px;
   left: -87px;
+  z-index: 1;
 }
 .dropdown_home {
   grid-template-columns: none;
@@ -409,6 +410,27 @@ body {
 .cntr:hover .dropdown::before {
   right: 365px;
   left: auto;
+}
+
+.breadcrumbs {
+  height: 148px;
+  background-color: #f8f3f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.breadcrumbs__title {
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #f16d7f;
+}
+.breadcrumbs__link {
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #636363;
 }
 
 .hero {
