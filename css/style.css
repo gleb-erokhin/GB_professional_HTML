@@ -370,7 +370,8 @@ body {
   color: #ffffff;
   width: 74px;
   position: absolute;
-  display: flex;
+  padding-bottom: 12px;
+  margin-right: 10px;
 }
 .menu__item_mv-dwn {
   grid-column: 2/3;
