@@ -371,6 +371,11 @@ body {
     border: 1px solid $colorTextSearch;
     top: 32px;
     left: -87px;
+
+    &_home {
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
 }
 
 // псевдоэлемент для создания стрелки указателя
@@ -438,6 +443,29 @@ body {
         display: flex;
         flex-direction: column;
         width: 235px;
+    }
+
+    &__item_bg {
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    &__item_img {
+        width: 100%;
+    }
+
+    &__item_sale {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+        color: #ffffff;
+        width: 74px;
+        position: absolute;
+        display: flex;
     }
 
     // позиционирование текста в выпадающем меню
