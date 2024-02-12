@@ -545,59 +545,94 @@ body {
 
     display: flex;
     gap: 50px;
+}
 
-    // блок с каталогом
-    .category {
-        &__list {
-            width: 243px;
-        }
-    }
-
-    // блок с фильтрами и товарами
-    .product {
-
-        &_type {
-            line-height: 26px;
-            color: #6f6e6e;
-        }
-
-        &__filter {
-            display: flex;
-            gap: 50px;
-        }
-
-        .product-trending {
-            width: 178px;
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-        }
-
-        .product-size {
-            width: 235px;
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-        }
-
-        &__input {
-            display: flex;
-            column-gap: 30px;
-            flex-wrap: wrap;
-            row-gap: 13px;
-        }
-
-        &__lable {
-            display: flex;
-            gap: 5px;
-            align-items: center;
-
-            line-height: 20px;
-            text-transform: uppercase;
-            color: #6f6e6e;
-        }
+// блок с каталогом
+.category {
+    &__list {
+        width: 243px;
     }
 }
+
+// блок с фильтрами и товарами
+.product {
+
+    &_type {
+        line-height: 26px;
+        color: #6f6e6e;
+    }
+
+    &__filter {
+        display: flex;
+        gap: 50px;
+    }
+
+    &_title {
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #6f6e6e;
+    }
+
+    &__lable {
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #6f6e6e;
+    }
+
+    .product-trending {
+        width: 178px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .product-size {
+        width: 235px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .product-price {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    &__input {
+        display: flex;
+        column-gap: 30px;
+        flex-wrap: wrap;
+        row-gap: 13px;
+    }
+
+    input[type="range"] {
+        width: 262px;
+    }
+
+    input[type=range].slider-progress {
+        background: #F80043;
+    }
+
+    &__lable {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #6f6e6e;
+    }
+
+    &__cost {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+
+}
+
 
 
 // Блок с центральным фото
