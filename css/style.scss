@@ -565,6 +565,7 @@ body {
     &__filter {
         display: flex;
         gap: 50px;
+        padding-bottom: 42px;
     }
 
     &_title {
@@ -611,10 +612,6 @@ body {
         width: 262px;
     }
 
-    input[type=range].slider-progress {
-        background: #F80043;
-    }
-
     &__lable {
         display: flex;
         gap: 5px;
@@ -629,6 +626,31 @@ body {
         display: flex;
         justify-content: space-between;
         padding-top: 10px;
+    }
+
+    // блок с сортировкой
+    &__sort {
+        height: 50px;
+        background-color: #f3f3f3;
+        display: flex;
+        align-items: center;
+    }
+    
+    &__block {
+        display: flex;
+        align-items: center;
+        
+        background-color: #ffffff;
+        border: 1px solid #ebebeb;
+        margin-left: 10px;
+    }
+
+    &__name {
+        padding: 8px 8px 8px 13px;
+    }
+
+    &__name_border {
+        border-left: 1px solid #ebebeb;
     }
 
 }
