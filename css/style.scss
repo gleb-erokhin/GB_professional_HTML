@@ -630,10 +630,12 @@ body {
 
     // блок с сортировкой
     &__sort {
+        width: 846px;
         height: 50px;
         background-color: #f3f3f3;
         display: flex;
         align-items: center;
+        margin-bottom: 48px;
     }
     
     &__block {
@@ -651,6 +653,14 @@ body {
 
     &__name_border {
         border-left: 1px solid #ebebeb;
+    }
+
+    // каталог карточек
+    &_cards {
+        display: grid;
+        grid-template-columns: repeat(3, 261px);
+        column-gap: 32px;
+        row-gap: 39px;
     }
 
 }

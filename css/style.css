@@ -505,10 +505,12 @@ body {
   padding-top: 10px;
 }
 .product__sort {
+  width: 846px;
   height: 50px;
   background-color: #f3f3f3;
   display: flex;
   align-items: center;
+  margin-bottom: 48px;
 }
 .product__block {
   display: flex;
@@ -522,6 +524,13 @@ body {
 }
 .product__name_border {
   border-left: 1px solid #ebebeb;
+}
+.product_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 261px);
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  row-gap: 39px;
 }
 
 .hero {
