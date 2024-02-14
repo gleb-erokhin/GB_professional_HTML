@@ -269,7 +269,6 @@ body {
 }
 
 .navigation {
-  height: 51px;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -318,7 +317,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 48px;
-  background-color: 1140px;
 }
 .menu__list {
   line-height: 26px;
@@ -326,6 +324,11 @@ body {
   text-transform: uppercase;
   color: #222222;
   list-style: none;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.menu__list_active {
+  border-bottom: 3px solid #f16d7f;
 }
 .menu__list:hover .dropdown {
   display: grid;

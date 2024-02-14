@@ -345,7 +345,6 @@ body {
 
 // Главная навигация сайта
 .navigation {
-    height: 51px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -400,7 +399,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 48px;
-    background-color: $contantWidth;
 
     &__list {
         line-height: 26px;
@@ -408,6 +406,12 @@ body {
         text-transform: uppercase;
         color: $colorMainText;
         list-style: none;
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+
+    &__list_active {
+        border-bottom: 3px solid $colorPink;
     }
 
     // активация выпадающего меню при наведении
@@ -637,11 +641,11 @@ body {
         align-items: center;
         margin-bottom: 48px;
     }
-    
+
     &__block {
         display: flex;
         align-items: center;
-        
+
         background-color: #ffffff;
         border: 1px solid #ebebeb;
         margin-left: 10px;
