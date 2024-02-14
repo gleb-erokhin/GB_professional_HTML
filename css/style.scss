@@ -942,6 +942,11 @@ body {
 .options {
     padding-bottom: 98px;
 
+    &_chg-product-page {
+        padding-bottom: 0;
+        background-color: $bgColorSecond;
+    }
+
     &__conteiner {
         height: 529px;
         gap: 36px;

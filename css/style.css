@@ -762,6 +762,10 @@ body {
 .options {
   padding-bottom: 98px;
 }
+.options_chg-product-page {
+  padding-bottom: 0;
+  background-color: #222224;
+}
 .options__conteiner {
   height: 529px;
   gap: 36px;
