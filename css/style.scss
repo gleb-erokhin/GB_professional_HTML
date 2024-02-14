@@ -555,6 +555,8 @@ body {
 .category {
     &__list {
         width: 243px;
+        padding-bottom: 18px;
+        display: flex;
     }
 }
 
