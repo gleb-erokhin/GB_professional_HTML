@@ -670,15 +670,46 @@ body {
     // кнопка и пагинация
     &__button-all {
         padding-top: 64px;
+        display: flex;
+        justify-content: space-between;
     }
 
     &__link_button-all {
+        display: flex;
+        align-items: center;
         width: 150px;
         height: 44px;
         background-color: #ffffff;
         border: 1px solid $colorPink;
         border-radius: 3px;
-        padding: 15px 45px;
+        padding: 13px 45px;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+
+        padding: 8px;
+        background-color: #ffffff;
+        border: 1px solid #ebebeb;
+        border-radius: 3px;
+    }
+
+    &__pagination {
+        display: flex;
+        list-style: none;
+        gap: 18px;
+    }
+
+    &__pagination_link {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 700;
+        color: #c4c4c4;
+    }
+
+    &__pagination_link-active {
+        color: $colorPink;
     }
 }
 
