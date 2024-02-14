@@ -762,19 +762,11 @@ body {
 .options {
   padding-bottom: 98px;
 }
-.options_chg-product-page {
-  padding-bottom: 0;
-  background-color: #222224;
-}
 .options__conteiner {
   height: 529px;
   gap: 36px;
   background-color: #222224;
   display: flex;
-}
-.options__conteiner_chg-product-page {
-  justify-content: center;
-  height: 341px;
 }
 
 .option-img {
@@ -815,10 +807,6 @@ body {
   flex-direction: column;
   width: 220px;
 }
-.option_chg-product-page {
-  align-items: center;
-  flex-direction: row;
-}
 
 .option-item__head {
   font-size: 20px;
@@ -832,6 +820,24 @@ body {
   font-weight: 300;
   letter-spacing: 0.025em;
   color: #fbfbfb;
+}
+
+.change {
+  padding-bottom: 0;
+  background-color: #222224;
+}
+.change_options-conteiner {
+  justify-content: center;
+  height: 341px;
+}
+.change_option {
+  align-items: center;
+  flex-direction: row;
+}
+.change_item {
+  gap: 21px;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* блок subscrybe */

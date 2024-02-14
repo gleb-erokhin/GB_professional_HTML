@@ -942,11 +942,6 @@ body {
 .options {
     padding-bottom: 98px;
 
-    &_chg-product-page {
-        padding-bottom: 0;
-        background-color: $bgColorSecond;
-    }
-
     &__conteiner {
         height: 529px;
         gap: 36px;
@@ -955,10 +950,7 @@ body {
         display: flex;
     }
 
-    &__conteiner_chg-product-page {
-        justify-content: center;
-        height: 341px;
-    }
+
 }
 
 // текст надо фото слева
@@ -1006,10 +998,6 @@ body {
         width: 220px;
     }
 
-    &_chg-product-page {
-        align-items: center;
-        flex-direction: row;
-    }
 }
 
 // оформление текста блока Опции
@@ -1029,6 +1017,31 @@ body {
         color: $colorOption;
     }
 }
+
+// CSS для блока options страницы product
+.change {
+    padding-bottom: 0;
+    background-color: $bgColorSecond;
+
+    &_options-conteiner {
+        justify-content: center;
+        height: 341px;
+    }
+
+    &_option {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    &_item {
+        gap: 21px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
 
 /* блок subscrybe */
 .subscrybe {
