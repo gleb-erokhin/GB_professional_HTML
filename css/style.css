@@ -436,6 +436,11 @@ body {
   color: #636363;
 }
 
+.cart {
+  padding-top: 44px;
+  padding-bottom: 62px;
+}
+
 .category-product {
   padding-top: 60px;
   padding-bottom: 110px;
