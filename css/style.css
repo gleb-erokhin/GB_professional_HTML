@@ -535,6 +535,17 @@ body {
        column-gap: 32px;
   row-gap: 39px;
 }
+.product__button-all {
+  padding-top: 64px;
+}
+.product__link_button-all {
+  width: 150px;
+  height: 44px;
+  background-color: #ffffff;
+  border: 1px solid #f16d7f;
+  border-radius: 3px;
+  padding: 15px 45px;
+}
 
 .hero {
   background-image: url(../img/main-photo.png);

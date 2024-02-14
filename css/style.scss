@@ -667,6 +667,19 @@ body {
         row-gap: 39px;
     }
 
+    // кнопка и пагинация
+    &__button-all {
+        padding-top: 64px;
+    }
+
+    &__link_button-all {
+        width: 150px;
+        height: 44px;
+        background-color: #ffffff;
+        border: 1px solid $colorPink;
+        border-radius: 3px;
+        padding: 15px 45px;
+    }
 }
 
 
