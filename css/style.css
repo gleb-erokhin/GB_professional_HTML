@@ -772,6 +772,10 @@ body {
   background-color: #222224;
   display: flex;
 }
+.options__conteiner_chg-product-page {
+  justify-content: center;
+  height: 341px;
+}
 
 .option-img {
   position: relative;
@@ -810,6 +814,10 @@ body {
   gap: 17px;
   flex-direction: column;
   width: 220px;
+}
+.option_chg-product-page {
+  align-items: center;
+  flex-direction: row;
 }
 
 .option-item__head {
