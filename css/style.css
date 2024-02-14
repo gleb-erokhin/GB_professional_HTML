@@ -440,6 +440,19 @@ body {
   padding-top: 44px;
   padding-bottom: 62px;
 }
+.cart__menage {
+  display: flex;
+  justify-content: space-between;
+}
+.cart__link {
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  padding: 18px 38px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+}
 
 .category-product {
   padding-top: 60px;
