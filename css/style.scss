@@ -568,11 +568,21 @@ body {
 
     &__unit {
         padding-top: 22px;
+        align-items: center;
     }
 
     &__unit-about {
         display: flex;
         gap: 22px;
+    }
+
+    &__unit-title_center {
+        justify-self: center;
+    }
+
+    &__quantity {
+        padding: 10px 24px;
+        border: 1px solid #eaeaea;
     }
 
     &__unit-head {

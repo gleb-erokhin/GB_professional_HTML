@@ -457,10 +457,18 @@ body {
 }
 .cart__unit {
   padding-top: 22px;
+  align-items: center;
 }
 .cart__unit-about {
   display: flex;
   gap: 22px;
+}
+.cart__unit-title_center {
+  justify-self: center;
+}
+.cart__quantity {
+  padding: 10px 24px;
+  border: 1px solid #eaeaea;
 }
 .cart__unit-head {
   padding-top: 13px;
