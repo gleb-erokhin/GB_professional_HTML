@@ -455,6 +455,20 @@ body {
   background-color: #ffffff;
   border: 1px solid #eaeaea;
 }
+.cart .shopping-list {
+  display: grid;
+  grid-template-columns: [start] 500px [line2] 1fr [line3] 1fr [line4] 1fr [line5] 1fr [line6] 1fr;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 20px;
+}
+.cart .shopping-list__title {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.015em;
+  color: #222222;
+}
 .cart .shiping-info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -531,6 +545,7 @@ body {
   width: 100%;
   margin-top: 22px;
   margin-bottom: 17px;
+  box-sizing: border-box;
 }
 .cart .shiping-info__sub-total {
   font-size: 11px;
