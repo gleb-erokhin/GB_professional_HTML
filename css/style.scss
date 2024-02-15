@@ -567,11 +567,19 @@ body {
     }
 
     .shiping-info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
 
         &__adress {
             display: flex;
             flex-direction: column;
             gap: 22px;
+        }
+
+        &__discount {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
         }
 
         &__title {
@@ -591,7 +599,7 @@ body {
         }
 
         &__button {
-            width: 100px;
+            width: 118px;
             height: 35px;
             font-size: 11px;
             line-height: 1.2;
