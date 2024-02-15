@@ -507,7 +507,8 @@ body {
 }
 .cart .shiping-info {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 355px 355px 360px;
+  gap: 35px;
 }
 .cart .shiping-info__adress {
   display: flex;

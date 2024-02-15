@@ -634,7 +634,8 @@ body {
 
     .shiping-info {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 355px 355px 360px;
+        gap: 35px;
 
         &__adress {
             display: flex;
