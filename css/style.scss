@@ -582,6 +582,16 @@ body {
             gap: 24px;
         }
 
+        &__total {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 360px;
+            height: 214px;
+            background-color: #f5f3f3;
+            padding: 42px;
+        }
+
         &__title {
             font-size: 16px;
             line-height: 1.2;
@@ -609,6 +619,28 @@ body {
             padding: 12px 10px;
             background-color: #ffffff;
             border: 1px solid #eaeaea;
+        }
+
+        &__button_total {
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: $colortWite;
+            background-color: $colorPink;
+            padding: 12px 42px;
+        }
+
+        &__sub {
+            display: flex;
+            justify-content: space-between;
+            width: 102px;
+        }
+
+        &_grand {
+            width: 165px;
         }
     }
 }
