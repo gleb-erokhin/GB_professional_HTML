@@ -548,7 +548,7 @@ body {
     padding-top: 90px;
     padding-bottom: 80px;
 
-    &__menage {
+    &__manage {
         display: flex;
         justify-content: space-between;
         padding-top: 44px;
@@ -611,6 +611,7 @@ body {
         padding-left: 5px;
     }
 
+    // формирование структуры таблицы, заголовки
     .shopping-list {
         display: grid;
         grid-template-columns: [start] 500px [line2] 1fr [line3] 1fr [line4] 1fr [line5] 1fr [line6] 1fr;

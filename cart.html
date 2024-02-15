@@ -416,6 +416,7 @@
 
     <!-- блок состава корзины -->
     <div class="cart center">
+        <!-- шапка таблицы товаров-->
         <div class="shopping-list">
             <p class="shopping-list__title">Product Details</p>
             <p class="shopping-list__title cart__unit-title_center">unite Price</p>
@@ -424,9 +425,12 @@
             <p class="shopping-list__title cart__unit-title_center">Subtotal</p>
             <p class="shopping-list__title cart__unit-title_center">ACTION</p>
         </div>
+        <!-- карточка товара 1 -->
         <div class="cart__unit shopping-list">
             <div class="cart__unit-about">
-                <img src="./img/products/catalog8.png" alt="фото товара" height="115">
+                <a href="#">
+                    <img src="./img/products/catalog8.png" alt="фото товара" height="115">
+                </a>
                 <div class="cart__unit-title">
                     <h3 class="cart__unit-head">Mango  People  T-shirt</h3>
                     <p class="cart__unit-text">Color:<span class="cart__unit-span">Red</span> </p>
@@ -439,10 +443,48 @@
             <p class="cart__unit-title cart__unit-title_center">$300</p>
             <i class="fa fa-times-circle drop__item_close cart__unit-title_center" aria-hidden="true"></i>
         </div>
-        <div class="cart__menage">
+        <!-- карточка товара 2 -->
+        <div class="cart__unit shopping-list">
+            <div class="cart__unit-about">
+                <a href="#">
+                    <img src="./img/products/catalog9.png" alt="фото товара" height="115">
+                </a>
+                <div class="cart__unit-title">
+                    <h3 class="cart__unit-head">Mango  People  T-shirt</h3>
+                    <p class="cart__unit-text">Color:<span class="cart__unit-span">Red</span> </p>
+                    <p class="cart__unit-text">Size:<span class="cart__unit-span">Xll</span> </p>
+                </div>
+            </div>
+            <p class="cart__unit-title cart__unit-title_center">$150</p>
+            <p class="cart__unit-title cart__unit-title_center cart__quantity">2</p>
+            <p class="cart__unit-title cart__unit-title_center">FREE</p>
+            <p class="cart__unit-title cart__unit-title_center">$300</p>
+            <i class="fa fa-times-circle drop__item_close cart__unit-title_center" aria-hidden="true"></i>
+        </div>
+        <!-- карточка товара 3 -->
+        <div class="cart__unit shopping-list">
+            <div class="cart__unit-about">
+                <a href="#">
+                    <img src="./img/products/catalog12.png" alt="фото товара" height="115">
+                </a>
+                <div class="cart__unit-title">
+                    <h3 class="cart__unit-head">Mango  People  T-shirt</h3>
+                    <p class="cart__unit-text">Color:<span class="cart__unit-span">Red</span> </p>
+                    <p class="cart__unit-text">Size:<span class="cart__unit-span">Xll</span> </p>
+                </div>
+            </div>
+            <p class="cart__unit-title cart__unit-title_center">$150</p>
+            <p class="cart__unit-title cart__unit-title_center cart__quantity">2</p>
+            <p class="cart__unit-title cart__unit-title_center">FREE</p>
+            <p class="cart__unit-title cart__unit-title_center">$300</p>
+            <i class="fa fa-times-circle drop__item_close cart__unit-title_center" aria-hidden="true"></i>
+        </div>
+        <!-- кнопки управления заказом -->
+        <div class="cart__manage">
             <a class="menu__link cart__link" href="#">clear shopping cart</a>
             <a class="menu__link cart__link" href="#">continue shopping</a>
         </div>
+        <!-- форма заполнения для заказа -->
         <form class="shiping-info">
             <div class="shiping-info__adress">
                 <h3 class="shiping-info__title">Shipping Adress</h3>
