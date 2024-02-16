@@ -543,6 +543,14 @@ body {
     }
 }
 
+// Блок checkout
+.checkout {
+
+    &__list {
+        
+    }
+}
+
 // Страница Корзина cart
 .cart {
     padding-top: 90px;
@@ -920,8 +928,6 @@ body {
         color: $colorPink;
     }
 }
-
-
 
 // Блок с центральным фото
 .hero {
