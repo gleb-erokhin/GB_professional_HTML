@@ -17,6 +17,7 @@ body {
   font-weight: 400;
   font-family: "Lato";
   font-size: 14px;
+  color: #222222;
 }
 
 .fa-left-padding {
@@ -434,6 +435,29 @@ body {
   font-weight: 300;
   text-transform: uppercase;
   color: #636363;
+}
+
+.checkout__conteiner {
+  display: flex;
+  padding-left: 35px;
+  padding-top: 40px;
+}
+.checkout__left {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.checkout__block-head {
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.checkout__block-text {
+  padding-top: 15px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #b3b2b2;
 }
 
 .cart {

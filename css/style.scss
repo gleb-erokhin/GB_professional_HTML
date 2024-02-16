@@ -31,6 +31,7 @@ body {
     font-weight: 400;
     font-family: "Lato";
     font-size: 14px;
+    color: $colorMainText;
 }
 
 // --- общие стили для всей страницы ---
@@ -546,8 +547,30 @@ body {
 // Блок checkout
 .checkout {
 
-    &__list {
-        
+    &__conteiner {
+        display: flex;
+        padding-left: 35px;
+        padding-top: 40px;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+    }
+
+    &__block-head {
+        font-size: 13px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    &__block-text {
+        padding-top: 15px;
+        font-size: 13px;
+        line-height: 20px;
+        color: #b3b2b2;
     }
 }
 
