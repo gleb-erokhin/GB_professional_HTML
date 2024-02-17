@@ -536,12 +536,24 @@ body {
         color: $colorPink;
     }
 
+    &__list {
+        display: flex;
+        list-style: none;
+    }
+
     &__link {
         line-height: 20px;
         font-weight: 300;
         text-transform: uppercase;
         color: #636363;
     }
+
+    &__item:not(:last-child):after {
+        content: "/";
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
 }
 
 // Блок checkout
