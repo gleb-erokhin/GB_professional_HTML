@@ -51,6 +51,12 @@ body {
     border: 1px solid $colorPink;
 }
 
+.button-hover:hover {
+    background-color: $colorPink;
+    // border: 1px solid $colorPink;
+    color: $colortWite;
+}
+
 .global_pink {
     color: $colorPink;
 }
@@ -554,12 +560,10 @@ body {
         padding-right: 5px;
         color: #636363;
     }
-
 }
 
 // Блок checkout
 .checkout {
-
     &__conteiner {
         display: flex;
         padding-left: 35px;
@@ -578,7 +582,7 @@ body {
         font-weight: 700;
         text-transform: uppercase;
     }
-    
+
     &__block-text {
         padding-top: 15px;
         font-size: 13px;
@@ -672,8 +676,6 @@ body {
             letter-spacing: -0.015em;
             color: $colorMainText;
         }
-
-
     }
 
     .shiping-info {
@@ -814,7 +816,7 @@ body {
 .product {
     display: flex;
     flex-direction: column;
-    
+
     &_type a {
         line-height: 26px;
         color: #6f6e6e;
@@ -944,9 +946,15 @@ body {
         width: 150px;
         height: 44px;
         background-color: #ffffff;
+        color: $colorPink;
         border: 1px solid $colorPink;
         border-radius: 3px;
         padding: 13px 45px;
+    }
+
+    &__link_button-all:hover {
+        background-color: $colorPink;
+        color: $colortWite;
     }
 
     &__nav {
@@ -1031,11 +1039,11 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 21px;
 
-    &>div:nth-child(4) {
+    & > div:nth-child(4) {
         grid-row: 2 / 4;
     }
 
-    &>div:nth-child(1) {
+    & > div:nth-child(1) {
         grid-row: 1 / 3;
     }
 
@@ -1162,6 +1170,7 @@ body {
         color: $colortWite;
         pointer-events: all;
         transition: transform 0.5s ease-in-out;
+        top: 15px;
     }
 
     &__link:hover {
@@ -1211,8 +1220,6 @@ body {
 
         display: flex;
     }
-
-
 }
 
 // текст надо фото слева
@@ -1259,7 +1266,6 @@ body {
         flex-direction: column;
         width: 220px;
     }
-
 }
 
 // оформление текста блока Опции

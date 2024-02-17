@@ -34,6 +34,11 @@ body {
   border: 1px solid #f16d7f;
 }
 
+.button-hover:hover {
+  background-color: #f16d7f;
+  color: #ffffff;
+}
+
 .global_pink {
   color: #f16d7f;
 }
@@ -765,9 +770,14 @@ body {
   width: 150px;
   height: 44px;
   background-color: #ffffff;
+  color: #f16d7f;
   border: 1px solid #f16d7f;
   border-radius: 3px;
   padding: 13px 45px;
+}
+.product__link_button-all:hover {
+  background-color: #f16d7f;
+  color: #ffffff;
 }
 .product__nav {
   display: flex;
@@ -945,6 +955,7 @@ body {
   color: #ffffff;
   pointer-events: all;
   transition: transform 0.5s ease-in-out;
+  top: 15px;
 }
 .products-item__link:hover {
   transform: scale(1.1);
