@@ -812,7 +812,9 @@ body {
 
 // блок с фильтрами и товарами
 .product {
-
+    display: flex;
+    flex-direction: column;
+    
     &_type a {
         line-height: 26px;
         color: #6f6e6e;
@@ -904,21 +906,21 @@ body {
         margin-bottom: 48px;
     }
 
-    &__block {
-        display: flex;
-        align-items: center;
-
+    &__title {
         background-color: #ffffff;
         border: 1px solid #ebebeb;
         margin-left: 10px;
+        padding: 8px 13px;
     }
 
-    &__name {
+    &__select {
         padding: 8px 8px 8px 13px;
+        border: 1px solid #ebebeb;
+        text-transform: capitalize;
     }
 
-    &__name_border {
-        border-left: 1px solid #ebebeb;
+    &__select:focus {
+        border: 1px solid $colorPink;
     }
 
     // каталог карточек
