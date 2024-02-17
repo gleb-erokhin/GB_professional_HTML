@@ -476,10 +476,12 @@
         </div>
         <!-- блок с фильтрами и карточками -->
         <div class="product">
+            <form action="#" oninput="result.value=(range.value)">
             <!-- блок с фильтрами и чекбоксом -->
             <div class="product__filter">
                 <div class="product-trending">
                     <h3 class="product_title">Trending now</h3>
+                    <!-- блок трендов -->
                     <div class="product_type-box">
                         <div class="product_type">
                             <ul class="list-style-none__flex">
@@ -507,9 +509,9 @@
                                 </li>
                             </ul>                    
                         </div>
-
                     </div>
                 </div>
+                <!-- блок размеров -->
                 <div class="product-size">
                     <h3 class="product_title">Size</h3>
                     <div class="product__input">
@@ -522,16 +524,19 @@
                         <label class="product__lable" for=""><input type="checkbox">XXL</label>
                     </div>
                 </div>
+                <!-- блок цены -->
                 <div class="product-price">
                     <h3 class="product_title">Price</h3>
                     <div class="product__range">
-                        <label for=""><input type="range"></label>
+                        <label  for="range"><input id="range" type="range" value="50" step="1" min="0"></label>
                         <div class="product__cost product_type">
-                            <p>$52</p>
+                            <p>$<output name="result" for="range"></output></p>
                             <p>$400</p>
                         </div>
                     </div>
                 </div>
+            </form>
+
             </div>
             <!-- блок с сортировкой -->
             <div class="product__sort">
