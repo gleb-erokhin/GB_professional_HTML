@@ -59,6 +59,11 @@ body {
     color: $colorPink;
 }
 
+.list-style-none__flex {
+    display: flex;
+    list-style: none;
+}
+
 /* Общее центрирование */
 .center {
     padding-left: calc(50% - $contantWidth / 2);
@@ -536,11 +541,6 @@ body {
         color: $colorPink;
     }
 
-    &__list {
-        display: flex;
-        list-style: none;
-    }
-
     &__link {
         line-height: 20px;
         font-weight: 300;
@@ -552,6 +552,7 @@ body {
         content: "/";
         padding-left: 5px;
         padding-right: 5px;
+        color: #636363;
     }
 
 }
@@ -812,9 +813,19 @@ body {
 // блок с фильтрами и товарами
 .product {
 
-    &_type {
+    &_type a {
         line-height: 26px;
         color: #6f6e6e;
+    }
+
+    &_type-list {
+        list-style: none;
+    }
+
+    &_type-item:not(:last-child)::after {
+        content: "|";
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     &__filter {

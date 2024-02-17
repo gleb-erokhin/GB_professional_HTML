@@ -42,6 +42,11 @@ body {
   color: #f16d7f;
 }
 
+.list-style-none__flex {
+  display: flex;
+  list-style: none;
+}
+
 /* Общее центрирование */
 .center {
   padding-left: calc(50% - 570px);
@@ -430,10 +435,6 @@ body {
   text-transform: uppercase;
   color: #f16d7f;
 }
-.breadcrumbs__list {
-  display: flex;
-  list-style: none;
-}
 .breadcrumbs__link {
   line-height: 20px;
   font-weight: 300;
@@ -444,6 +445,7 @@ body {
   content: "/";
   padding-left: 5px;
   padding-right: 5px;
+  color: #636363;
 }
 
 .checkout__conteiner {
@@ -651,9 +653,17 @@ body {
   display: flex;
 }
 
-.product_type {
+.product_type a {
   line-height: 26px;
   color: #6f6e6e;
+}
+.product_type-list {
+  list-style: none;
+}
+.product_type-item:not(:last-child)::after {
+  content: "|";
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .product__filter {
   display: flex;
