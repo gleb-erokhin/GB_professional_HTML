@@ -664,6 +664,7 @@ body {
   border-left: 5px solid #f16d7f;
   color: #6f6e6e;
   padding: 10px;
+  cursor: pointer;
 }
 .category__content {
   display: flex;
@@ -675,6 +676,7 @@ body {
 }
 .category__list[open] .category__summary {
   color: #f16d7f;
+  cursor: pointer;
 }
 
 .category__list:not(:last-child) {

@@ -819,6 +819,7 @@ body {
         border-left: 5px solid $colorPink;
         color: #6f6e6e;
         padding: 10px;
+        cursor: pointer;
     }
 
     &__content {
@@ -833,6 +834,7 @@ body {
 
     &__list[open] .category__summary {
         color: $colorPink;
+        cursor: pointer;
     }
 }
 
