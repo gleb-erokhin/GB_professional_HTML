@@ -502,6 +502,14 @@ body {
 .cart__unit-about {
   display: flex;
   gap: 22px;
+  width: 300px;
+  height: 115px;
+}
+.cart__unit-about img {
+  height: 100%;
+}
+.cart__unit-about:hover {
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
 .cart__unit-title_center {
   justify-self: center;
