@@ -467,6 +467,12 @@ body {
   padding-top: 40px;
   gap: 320px;
 }
+.checkout__manage {
+  padding-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
 .checkout__left {
   display: flex;
   flex-direction: column;
@@ -488,6 +494,15 @@ body {
   display: flex;
   flex-direction: column;
   width: 390px;
+}
+.checkout__pad {
+  padding-top: 22px;
+  padding-bottom: 16px;
+}
+.checkout__inputs {
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
 }
 
 .cart {

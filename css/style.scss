@@ -578,6 +578,13 @@ body {
         gap: 320px;
     }
 
+    &__manage {
+        padding-top: 32px;
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
     &__left {
         display: flex;
         flex-direction: column;
@@ -602,6 +609,17 @@ body {
         display: flex;
         flex-direction: column;
         width: 390px;
+    }
+
+    &__pad {
+        padding-top: 22px;
+        padding-bottom: 16px;
+    }
+
+    &__inputs {
+        height: 45px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
     }
 }
 
