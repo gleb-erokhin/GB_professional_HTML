@@ -40,6 +40,11 @@ body {
     padding-left: 8px;
 }
 
+.fa-times-circle:hover {
+    color: $colorPink;
+    cursor: pointer;
+}
+
 // наведение на кнопку
 .button-hover_pink {
     transition: background-color 0.5s ease-in-out;
@@ -642,11 +647,12 @@ body {
     &__unit-title_center {
         justify-self: center;
     }
-    
+
     &__quantity {
-        padding: 10px 24px;
+        padding: 10px 12px;
         border: 1px solid #eaeaea;
-        width: 84px;
+        width: 58px;
+        font-size: 13px;
     }
 
     &__unit-head {

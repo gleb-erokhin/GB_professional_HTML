@@ -24,6 +24,11 @@ body {
   padding-left: 8px;
 }
 
+.fa-times-circle:hover {
+  color: #f16d7f;
+  cursor: pointer;
+}
+
 .button-hover_pink {
   transition: background-color 0.5s ease-in-out;
 }
@@ -519,9 +524,10 @@ body {
   justify-self: center;
 }
 .cart__quantity {
-  padding: 10px 24px;
+  padding: 10px 12px;
   border: 1px solid #eaeaea;
-  width: 84px;
+  width: 58px;
+  font-size: 13px;
 }
 .cart__unit-head {
   padding-top: 13px;
