@@ -494,10 +494,15 @@
             <a class="menu__link cart__link" href="#">continue shopping</a>
         </div>
         <!-- форма заполнения для заказа -->
-        <form class="shiping-info">
+        <form action="#" class="shiping-info">
             <div class="shiping-info__adress">
                 <h3 class="shiping-info__title">Shipping Adress</h3>
-                <input class="shiping-info__input" type="text" placeholder="City">
+                <select name="country" class="shiping-info__input">
+                    <option value="Russian Federation" selected>Russian Federation</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="China">China</option>
+                </select>
                 <input class="shiping-info__input" type="text" placeholder="State">
                 <input class="shiping-info__input" type="text" placeholder="Postal \ Zip code">
                 <button class="shiping-info__button" type="submit">get a quote</button>
