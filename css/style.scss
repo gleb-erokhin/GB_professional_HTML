@@ -614,6 +614,11 @@ body {
         border: 1px solid #eaeaea;
     }
 
+    &__link:hover {
+        border: 1px solid $colorPink;
+        color: $colorPink;
+    }
+
     &__unit {
         padding-top: 22px;
         align-items: center;
@@ -626,7 +631,7 @@ body {
         height: 115px;
     }
 
-    &__unit-about img{
+    &__unit-about img {
         height: 100%;
     }
 
