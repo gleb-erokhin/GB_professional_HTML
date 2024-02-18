@@ -569,10 +569,13 @@ body {
 
 // Блок checkout
 .checkout {
+    padding: 90px 0 90px 0;
+
     &__conteiner {
         display: flex;
         padding-left: 35px;
         padding-top: 40px;
+        gap: 320px;
     }
 
     &__left {
