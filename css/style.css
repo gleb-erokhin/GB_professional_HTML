@@ -521,6 +521,7 @@ body {
 .cart__quantity {
   padding: 10px 24px;
   border: 1px solid #eaeaea;
+  width: 84px;
 }
 .cart__unit-head {
   padding-top: 13px;

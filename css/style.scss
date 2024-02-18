@@ -642,10 +642,11 @@ body {
     &__unit-title_center {
         justify-self: center;
     }
-
+    
     &__quantity {
         padding: 10px 24px;
         border: 1px solid #eaeaea;
+        width: 84px;
     }
 
     &__unit-head {
