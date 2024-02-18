@@ -1429,10 +1429,19 @@ body {
         width: 38px;
         height: 4px;
         background-color: #d6d6d6;
+        cursor: pointer;
+    }
+
+    &__span:hover {
+        background-color: $colorPink;
     }
 
     &__span_pink {
         background-color: $colorPink;
+    }
+
+    &__span_pink:hover {
+        background-color: #d6d6d6;
     }
 }
 

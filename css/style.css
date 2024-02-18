@@ -1175,9 +1175,16 @@ body {
   width: 38px;
   height: 4px;
   background-color: #d6d6d6;
+  cursor: pointer;
+}
+.subscrybe-comment__span:hover {
+  background-color: #f16d7f;
 }
 .subscrybe-comment__span_pink {
   background-color: #f16d7f;
+}
+.subscrybe-comment__span_pink:hover {
+  background-color: #d6d6d6;
 }
 
 .subscrybe-form__text {
