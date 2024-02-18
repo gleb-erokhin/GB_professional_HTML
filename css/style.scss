@@ -597,6 +597,12 @@ body {
         line-height: 20px;
         color: #b3b2b2;
     }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        width: 390px;
+    }
 }
 
 // Страница Корзина cart
@@ -1102,11 +1108,11 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 21px;
 
-    & > div:nth-child(4) {
+    &>div:nth-child(4) {
         grid-row: 2 / 4;
     }
 
-    & > div:nth-child(1) {
+    &>div:nth-child(1) {
         grid-row: 1 / 3;
     }
 

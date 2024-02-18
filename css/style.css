@@ -484,6 +484,11 @@ body {
   line-height: 20px;
   color: #b3b2b2;
 }
+.checkout__right {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+}
 
 .cart {
   padding-top: 90px;
