@@ -775,6 +775,12 @@ body {
             padding: 12px 42px;
         }
 
+        &__button_total:hover {
+            color: $colorPink;
+            background-color: $colortWite;
+            border: 1px solid $colorPink;
+        }
+
         &__sub {
             display: flex;
             justify-content: space-between;

@@ -631,6 +631,11 @@ body {
   background-color: #f16d7f;
   padding: 12px 42px;
 }
+.cart .shiping-info__button_total:hover {
+  color: #f16d7f;
+  background-color: #ffffff;
+  border: 1px solid #f16d7f;
+}
 .cart .shiping-info__sub {
   display: flex;
   justify-content: space-between;
