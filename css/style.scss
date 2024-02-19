@@ -40,6 +40,10 @@ body {
     padding-left: 8px;
 }
 
+.fa-right-padding {
+    padding-right: 8px;
+}
+
 .fa-times-circle:hover {
     color: $colorPink;
     cursor: pointer;
@@ -440,6 +444,7 @@ body {
     &__link {
         text-decoration: none;
         color: $colorMainText;
+        display: block;
     }
 
     // стиль ссылок в выпадающем меню
@@ -571,6 +576,12 @@ body {
 .checkout {
     padding: 90px 0 90px 0;
 
+    &__summary {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
     &__conteiner {
         display: flex;
         padding-left: 35px;
@@ -579,7 +590,7 @@ body {
     }
 
     &__manage {
-        padding-top: 32px;
+        margin-top: 32px;
         display: flex;
         align-items: center;
         gap: 32px;
@@ -588,21 +599,47 @@ body {
     &__left {
         display: flex;
         flex-direction: column;
-        gap: 34px;
+        // gap: 34px;
     }
 
-    &__block-head {
+    &__block {
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    &__lable {
+        font-size: 12px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: $colorMainText;
+    }
+
+    &__head {
         font-size: 13px;
         line-height: 1.2;
         font-weight: 700;
         text-transform: uppercase;
     }
 
-    &__block-text {
+    &__text {
         padding-top: 15px;
         font-size: 13px;
         line-height: 20px;
         color: #b3b2b2;
+    }
+
+    &__text_left-bottom {
+        padding-bottom: 32px;
+    }
+
+    &__link {
+        display: block;
+    }
+
+    &__link {
+        margin-bottom: 15px;
     }
 
     &__right {

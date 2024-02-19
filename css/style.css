@@ -24,6 +24,10 @@ body {
   padding-left: 8px;
 }
 
+.fa-right-padding {
+  padding-right: 8px;
+}
+
 .fa-times-circle:hover {
   color: #f16d7f;
   cursor: pointer;
@@ -352,6 +356,7 @@ body {
 .menu__link {
   text-decoration: none;
   color: #222222;
+  display: block;
 }
 .menu__link_drop {
   line-height: 28px;
@@ -461,6 +466,11 @@ body {
 .checkout {
   padding: 90px 0 90px 0;
 }
+.checkout__summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .checkout__conteiner {
   display: flex;
   padding-left: 35px;
@@ -468,7 +478,7 @@ body {
   gap: 320px;
 }
 .checkout__manage {
-  padding-top: 32px;
+  margin-top: 32px;
   display: flex;
   align-items: center;
   gap: 32px;
@@ -476,19 +486,39 @@ body {
 .checkout__left {
   display: flex;
   flex-direction: column;
-  gap: 34px;
 }
-.checkout__block-head {
+.checkout__block {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.checkout__lable {
+  font-size: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #222222;
+}
+.checkout__head {
   font-size: 13px;
   line-height: 1.2;
   font-weight: 700;
   text-transform: uppercase;
 }
-.checkout__block-text {
+.checkout__text {
   padding-top: 15px;
   font-size: 13px;
   line-height: 20px;
   color: #b3b2b2;
+}
+.checkout__text_left-bottom {
+  padding-bottom: 32px;
+}
+.checkout__link {
+  display: block;
+}
+.checkout__link {
+  margin-bottom: 15px;
 }
 .checkout__right {
   display: flex;
