@@ -1172,6 +1172,21 @@ body {
     }
 }
 
+// Страниа single описание одного товара
+.single {
+    background-image: url(../img/photo_main.png);
+    background-color: #f7f7f7;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 777px;
+
+}
+
+// .propeties {
+//     height: 730px;
+//     background-color: $colortWite;
+// }
+
 // Блок предложения и скидки
 .offers {
     padding-top: 98px;

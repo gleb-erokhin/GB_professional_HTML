@@ -960,6 +960,14 @@ body {
   margin-top: 15px;
 }
 
+.single {
+  background-image: url(../img/photo_main.png);
+  background-color: #f7f7f7;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 777px;
+}
+
 .offers {
   padding-top: 98px;
   padding-bottom: 98px;
