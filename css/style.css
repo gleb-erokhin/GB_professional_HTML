@@ -968,6 +968,11 @@ body {
   min-height: 777px;
 }
 
+.propeties {
+  height: 730px;
+  background-color: red;
+}
+
 .offers {
   padding-top: 98px;
   padding-bottom: 98px;
