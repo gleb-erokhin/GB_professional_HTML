@@ -444,7 +444,6 @@ body {
     &__link {
         text-decoration: none;
         color: $colorMainText;
-        display: block;
     }
 
     // стиль ссылок в выпадающем меню
@@ -576,7 +575,26 @@ body {
 .checkout {
     padding: 90px 0 90px 0;
 
-    &__summary {
+    &__hr {
+        padding-bottom: 32px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    &__header {
+        padding-top: 32px;
+    }
+
+    &__list[open] .checkout__summary {
+        color: #f16d7f;
+        cursor: pointer;
+    }
+
+    &__summary {font-size: 16px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #222222;
+
         display: flex;
         align-items: center;
         gap: 10px;

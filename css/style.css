@@ -356,7 +356,6 @@ body {
 .menu__link {
   text-decoration: none;
   color: #222222;
-  display: block;
 }
 .menu__link_drop {
   line-height: 28px;
@@ -466,7 +465,23 @@ body {
 .checkout {
   padding: 90px 0 90px 0;
 }
+.checkout__hr {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #ccc;
+}
+.checkout__header {
+  padding-top: 32px;
+}
+.checkout__list[open] .checkout__summary {
+  color: #f16d7f;
+  cursor: pointer;
+}
 .checkout__summary {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
   display: flex;
   align-items: center;
   gap: 10px;

@@ -417,53 +417,330 @@
 
     <!-- блок параметров и аккаунта -->
     <section class="checkout ">
-        <details class="checkout__list center" open>
-            <summary class="checkout__summary">01. Shipping Adress<i class="fa fa-caret-down" aria-hidden="true"></i>
-            </summary>
-            <div class="checkout__conteiner">
-                <!-- блок информации -->
-                <div class="checkout__left">
-                    <p class="checkout__head">Check as a guest or register</p>
-                    <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience</p>
-                    <form class="checkout__form" action="#">
-                        <div class="checkout__check">
-                            <div class="checkout__block">
-                                <input type="radio" name="checkout" id="checkout-radio">
-                                <label class="checkout__lable" for="checkout-radio">checkout as guest</label><br>
-                            </div>
-                            <div class="checkout__block checkout__text_left-bottom">
-                                <input type="radio" name="checkout" id="checkout-radio">
-                                <label class="checkout__lable" for="checkout-radio">register</label>
-                            </div>
-                        </div>
-                        <p class="checkout__head ">register and save time!</p>
+        <div class="checkout__header center">
+            <details class="checkout__list checkout__hr center" open>
+                <summary class="checkout__summary">01. Shipping Adress<i class="fa fa-caret-down"
+                        aria-hidden="true"></i>
+                </summary>
+                <div class="checkout__conteiner">
+                    <!-- блок информации -->
+                    <div class="checkout__left">
+                        <p class="checkout__head">Check as a guest or register</p>
                         <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience</p>
-                        <a class="menu__link checkout__link" href="#"><i class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Fast
-                            and easy checkout</a>
-                        <a class="menu__link checkout__link" href="#"><i class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Easy access to your order history and status</a>
+                        <form class="checkout__form" action="#">
+                            <div class="checkout__check">
+                                <div class="checkout__block">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">checkout as guest</label><br>
+                                </div>
+                                <div class="checkout__block checkout__text_left-bottom">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">register</label>
+                                </div>
+                            </div>
+                            <p class="checkout__head ">register and save time!</p>
+                            <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience
+                            </p>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Fast
+                                and easy checkout</a>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Easy access
+                                to your order history and status</a>
+                            <div class="checkout__manage">
+                                <a class="menu__link cart__link" href="#">Continue</a>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- блок Логин -->
+                    <div class="checkout__right">
+                        <p class="checkout__head">Already registed?</p>
+                        <p class="checkout__text">Please log in below</p>
+                        <label class="checkout__pad" for="checkout-email">EMAIL ADDRESS <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <label class="checkout__pad" for="checkout-email">PASSWORD <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <p class="checkout__head global_pink checkout__pad">* Required Fileds</p>
                         <div class="checkout__manage">
                             <a class="menu__link cart__link" href="#">Continue</a>
+                            <p class="checkout__fogot">Forgot Password ?</p>
                         </div>
-                    </form>
-                </div>
-                <!-- блок Логин -->
-                <div class="checkout__right">
-                    <p class="checkout__head">Already registed?</p>
-                    <p class="checkout__text">Please log in below</p>
-                    <label class="checkout__pad" for="checkout-email">EMAIL ADDRESS <span
-                            class="global_pink">*</span></label>
-                    <input class="checkout__inputs" type="text" id="checkout-email">
-                    <label class="checkout__pad" for="checkout-email">PASSWORD <span
-                            class="global_pink">*</span></label>
-                    <input class="checkout__inputs" type="text" id="checkout-email">
-                    <p class="checkout__head global_pink checkout__pad">* Required Fileds</p>
-                    <div class="checkout__manage">
-                        <a class="menu__link cart__link" href="#">Continue</a>
-                        <p class="checkout__fogot">Forgot Password ?</p>
                     </div>
                 </div>
-            </div>
-        </details>
+            </details>
+        </div>
+        <div class="checkout__header center">
+            <details class="checkout__list checkout__hr center">
+                <summary class="checkout__summary">02. BILLING INFORMATION<i class="fa fa-caret-down"
+                        aria-hidden="true"></i>
+                </summary>
+                <div class="checkout__conteiner">
+                    <!-- блок информации -->
+                    <div class="checkout__left">
+                        <p class="checkout__head">Check as a guest or register</p>
+                        <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience</p>
+                        <form class="checkout__form" action="#">
+                            <div class="checkout__check">
+                                <div class="checkout__block">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">checkout as guest</label><br>
+                                </div>
+                                <div class="checkout__block checkout__text_left-bottom">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">register</label>
+                                </div>
+                            </div>
+                            <p class="checkout__head ">register and save time!</p>
+                            <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience
+                            </p>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Fast
+                                and easy checkout</a>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Easy access
+                                to your order history and status</a>
+                            <div class="checkout__manage">
+                                <a class="menu__link cart__link" href="#">Continue</a>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- блок Логин -->
+                    <div class="checkout__right">
+                        <p class="checkout__head">Already registed?</p>
+                        <p class="checkout__text">Please log in below</p>
+                        <label class="checkout__pad" for="checkout-email">EMAIL ADDRESS <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <label class="checkout__pad" for="checkout-email">PASSWORD <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <p class="checkout__head global_pink checkout__pad">* Required Fileds</p>
+                        <div class="checkout__manage">
+                            <a class="menu__link cart__link" href="#">Continue</a>
+                            <p class="checkout__fogot">Forgot Password ?</p>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </div>
+        <div class="checkout__header center">
+            <details class="checkout__list checkout__hr center">
+                <summary class="checkout__summary">03. SHIPPING INFORMATION<i class="fa fa-caret-down"
+                        aria-hidden="true"></i>
+                </summary>
+                <div class="checkout__conteiner">
+                    <!-- блок информации -->
+                    <div class="checkout__left">
+                        <p class="checkout__head">Check as a guest or register</p>
+                        <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience</p>
+                        <form class="checkout__form" action="#">
+                            <div class="checkout__check">
+                                <div class="checkout__block">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">checkout as guest</label><br>
+                                </div>
+                                <div class="checkout__block checkout__text_left-bottom">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">register</label>
+                                </div>
+                            </div>
+                            <p class="checkout__head ">register and save time!</p>
+                            <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience
+                            </p>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Fast
+                                and easy checkout</a>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Easy access
+                                to your order history and status</a>
+                            <div class="checkout__manage">
+                                <a class="menu__link cart__link" href="#">Continue</a>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- блок Логин -->
+                    <div class="checkout__right">
+                        <p class="checkout__head">Already registed?</p>
+                        <p class="checkout__text">Please log in below</p>
+                        <label class="checkout__pad" for="checkout-email">EMAIL ADDRESS <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <label class="checkout__pad" for="checkout-email">PASSWORD <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <p class="checkout__head global_pink checkout__pad">* Required Fileds</p>
+                        <div class="checkout__manage">
+                            <a class="menu__link cart__link" href="#">Continue</a>
+                            <p class="checkout__fogot">Forgot Password ?</p>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </div>
+        <div class="checkout__header center">
+            <details class="checkout__list checkout__hr center">
+                <summary class="checkout__summary">04. SHIPPING METHOD<i class="fa fa-caret-down"
+                        aria-hidden="true"></i>
+                </summary>
+                <div class="checkout__conteiner">
+                    <!-- блок информации -->
+                    <div class="checkout__left">
+                        <p class="checkout__head">Check as a guest or register</p>
+                        <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience</p>
+                        <form class="checkout__form" action="#">
+                            <div class="checkout__check">
+                                <div class="checkout__block">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">checkout as guest</label><br>
+                                </div>
+                                <div class="checkout__block checkout__text_left-bottom">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">register</label>
+                                </div>
+                            </div>
+                            <p class="checkout__head ">register and save time!</p>
+                            <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience
+                            </p>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Fast
+                                and easy checkout</a>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Easy access
+                                to your order history and status</a>
+                            <div class="checkout__manage">
+                                <a class="menu__link cart__link" href="#">Continue</a>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- блок Логин -->
+                    <div class="checkout__right">
+                        <p class="checkout__head">Already registed?</p>
+                        <p class="checkout__text">Please log in below</p>
+                        <label class="checkout__pad" for="checkout-email">EMAIL ADDRESS <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <label class="checkout__pad" for="checkout-email">PASSWORD <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <p class="checkout__head global_pink checkout__pad">* Required Fileds</p>
+                        <div class="checkout__manage">
+                            <a class="menu__link cart__link" href="#">Continue</a>
+                            <p class="checkout__fogot">Forgot Password ?</p>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </div>
+        <div class="checkout__header center">
+            <details class="checkout__list checkout__hr center">
+                <summary class="checkout__summary">05. PAYMENT METHOD<i class="fa fa-caret-down"
+                        aria-hidden="true"></i>
+                </summary>
+                <div class="checkout__conteiner">
+                    <!-- блок информации -->
+                    <div class="checkout__left">
+                        <p class="checkout__head">Check as a guest or register</p>
+                        <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience</p>
+                        <form class="checkout__form" action="#">
+                            <div class="checkout__check">
+                                <div class="checkout__block">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">checkout as guest</label><br>
+                                </div>
+                                <div class="checkout__block checkout__text_left-bottom">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">register</label>
+                                </div>
+                            </div>
+                            <p class="checkout__head ">register and save time!</p>
+                            <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience
+                            </p>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Fast
+                                and easy checkout</a>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Easy access
+                                to your order history and status</a>
+                            <div class="checkout__manage">
+                                <a class="menu__link cart__link" href="#">Continue</a>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- блок Логин -->
+                    <div class="checkout__right">
+                        <p class="checkout__head">Already registed?</p>
+                        <p class="checkout__text">Please log in below</p>
+                        <label class="checkout__pad" for="checkout-email">EMAIL ADDRESS <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <label class="checkout__pad" for="checkout-email">PASSWORD <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <p class="checkout__head global_pink checkout__pad">* Required Fileds</p>
+                        <div class="checkout__manage">
+                            <a class="menu__link cart__link" href="#">Continue</a>
+                            <p class="checkout__fogot">Forgot Password ?</p>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </div>
+        <div class="checkout__header center">
+            <details class="checkout__list checkout__hr center">
+                <summary class="checkout__summary">06. ORDER REVIEW<i class="fa fa-caret-down"
+                        aria-hidden="true"></i>
+                </summary>
+                <div class="checkout__conteiner">
+                    <!-- блок информации -->
+                    <div class="checkout__left">
+                        <p class="checkout__head">Check as a guest or register</p>
+                        <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience</p>
+                        <form class="checkout__form" action="#">
+                            <div class="checkout__check">
+                                <div class="checkout__block">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">checkout as guest</label><br>
+                                </div>
+                                <div class="checkout__block checkout__text_left-bottom">
+                                    <input type="radio" name="checkout" id="checkout-radio">
+                                    <label class="checkout__lable" for="checkout-radio">register</label>
+                                </div>
+                            </div>
+                            <p class="checkout__head ">register and save time!</p>
+                            <p class="checkout__text checkout__text_left-bottom">Register with us for future convenience
+                            </p>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Fast
+                                and easy checkout</a>
+                            <a class="menu__link checkout__link" href="#"><i
+                                    class="fa fa-angle-double-right fa-right-padding" aria-hidden="true"></i>Easy access
+                                to your order history and status</a>
+                            <div class="checkout__manage">
+                                <a class="menu__link cart__link" href="#">Continue</a>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- блок Логин -->
+                    <div class="checkout__right">
+                        <p class="checkout__head">Already registed?</p>
+                        <p class="checkout__text">Please log in below</p>
+                        <label class="checkout__pad" for="checkout-email">EMAIL ADDRESS <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <label class="checkout__pad" for="checkout-email">PASSWORD <span
+                                class="global_pink">*</span></label>
+                        <input class="checkout__inputs" type="text" id="checkout-email">
+                        <p class="checkout__head global_pink checkout__pad">* Required Fileds</p>
+                        <div class="checkout__manage">
+                            <a class="menu__link cart__link" href="#">Continue</a>
+                            <p class="checkout__fogot">Forgot Password ?</p>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </div>
     </section>
     <!-- // блок параметров и аккаунта -->
 
