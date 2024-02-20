@@ -1179,12 +1179,14 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 777px;
-
+    position: relative;
 }
 
 .propeties {
+    top: 690px;
     height: 730px;
     background-color: red;
+    position: absolute;
 }
 
 // Блок предложения и скидки
