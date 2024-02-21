@@ -1214,15 +1214,19 @@ body {
 }
 
 .propeties {
+    &__text {
+        width: 620px;
+        text-align: center;
+    }
+}
+
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     background-color: #ffffff;
     border: 1px solid #eaeaea;
-}
-
-.content {
     width: $contantWidth;
 }
 

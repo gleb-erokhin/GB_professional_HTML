@@ -990,15 +990,17 @@ body {
   height: 777px;
 }
 
-.propeties {
+.propeties__text {
+  width: 620px;
+  text-align: center;
+}
+
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
   border: 1px solid #eaeaea;
-}
-
-.content {
   width: 1140px;
 }
 
