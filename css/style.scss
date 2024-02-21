@@ -1303,6 +1303,11 @@ body {
         justify-content: center;
     }
 
+    &__details {
+        position: relative;
+
+    }
+
     &__summary {
         display: flex;
     }
@@ -1315,6 +1320,12 @@ body {
         border: 1px solid #eaeaea;
         width: 144px;
     }
+    
+    &__colors-item_ab {
+            position: absolute;
+            z-index: 100;
+
+        }
 
     &__colors-item {
         width: 12px;

@@ -1063,6 +1063,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.propeties__details {
+  position: relative;
+}
 .propeties__summary {
   display: flex;
 }
@@ -1073,6 +1076,10 @@ body {
   padding: 10px 14px;
   border: 1px solid #eaeaea;
   width: 144px;
+}
+.propeties__colors-item_ab {
+  position: absolute;
+  z-index: 100;
 }
 .propeties__colors-item {
   width: 12px;
