@@ -1051,6 +1051,9 @@ body {
   display: flex;
   gap: 52px;
 }
+.propeties__form-head {
+  padding-bottom: 16px;
+}
 .propeties__button {
   width: 100%;
   padding-top: 28px;
@@ -1059,6 +1062,22 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.propeties__summary {
+  display: flex;
+}
+.propeties__colors {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 14px;
+  border: 1px solid #eaeaea;
+  width: 144px;
+}
+.propeties__colors-item {
+  width: 12px;
+  height: 12px;
+  background-color: #f16d7f;
 }
 
 .content {

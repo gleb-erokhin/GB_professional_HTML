@@ -1288,6 +1288,10 @@ body {
         gap: 52px;
     }
 
+    &__form-head {
+        padding-bottom: 16px;
+    }
+
     &__button {
         width: 100%;
         padding-top: 28px;
@@ -1297,6 +1301,25 @@ body {
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    &__summary {
+        display: flex;
+    }
+
+    &__colors {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 14px;
+        border: 1px solid #eaeaea;
+        width: 144px;
+    }
+
+    &__colors-item {
+        width: 12px;
+        height: 12px;
+        background-color: $colorPink;
     }
 }
 
