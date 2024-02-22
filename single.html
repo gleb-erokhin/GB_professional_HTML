@@ -412,6 +412,9 @@
             <img src="./img/photo_main.png" alt="">
         </div>
     </section>
+    <!-- // блок Банер -->
+
+    <!-- блок описания товара -->
     <section class="propeties center">
         <div class="content">
             <p class="propeties__title">WOMEN COLLECTION</p>
@@ -436,9 +439,10 @@
             <form class="propeties__form" action="#">
                 <div class="propeties__form-items">
                     <div class="propeties__form-item">
-                        <!-- блок по умолчанию -->
+                        <!-- блок с выбором цвета -->
                         <h3 class="propeties__form-head">CHOOSE COLOR</h3>
                         <details class="propeties__details">
+                            <!-- цвет по умолчанию -->
                             <summary class="propeties__summary">
                                 <div class="propeties__colors">
                                     <div class="propeties__colors-item"></div>
@@ -466,16 +470,36 @@
                         </details>
                     </div>
                     <div class="propeties__form-item">
+                        <!-- блок с выбором размера -->
                         <h3 class="propeties__form-head">CHOOSE SIZE</h3>
-                        <select name="COLOR" id="COLOR">
-                            <option value="red">XXL</option>
-                            <option value="green">XL</option>
-                            <option value="blue">L</option>
-                        </select>
+                        <details class="propeties__details">
+                            <!-- размер по умолчанию -->
+                            <summary class="propeties__summary">
+                                <div class="propeties__colors">
+                                    <div class="propeties__colors-text">XXL</div>
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </div>
+                            </summary>
+                            <!-- выпадающее меню -->
+                            <div class="propeties__drop">
+                                <div class="propeties__drop-items">
+                                    <div class="propeties__colors propeties__colors_items">
+                                        <div class="propeties__colors-text propeties__colors-text_drop">XL</div>
+                                    </div>
+                                    <div class="propeties__colors propeties__colors_items">
+                                        <div class="propeties__colors-text propeties__colors-text_drop">L</div>
+                                    </div>
+                                    <div class="propeties__colors propeties__colors_items">
+                                        <div class="propeties__colors-text propeties__colors-text_drop">M</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </details>
                     </div>
                     <div class="propeties__form-item">
+                        <!-- блок с выбором количества -->
                         <h3 class="propeties__form-head">QUANTITY</h3>
-                        <input type="number" min="1">
+                        <input class="propeties__colors" type="number" min="1">
                     </div>
                 </div>
                 <div class="propeties__button">
@@ -484,10 +508,13 @@
             </form>
         </div>
     </section>
-    <!-- // блок Банер -->
+    <!-- // блок описания товара -->
 
+    <!-- блок карточек вам может понравится -->
+    <acide class="like">
 
-
+    </acide>
+    
     <!-- блок Подписок -->
     <section class="subscrybe center">
         <div class="subscrybe-comment">

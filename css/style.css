@@ -1087,6 +1087,12 @@ body {
   border: 1px solid #eaeaea;
   width: 144px;
 }
+.propeties__colors-text {
+  padding-right: 30px;
+}
+.propeties__colors-text:hover {
+  color: #f16d7f;
+}
 .propeties__colors_items {
   border: none;
   justify-content: flex-start;
@@ -1095,6 +1101,7 @@ body {
   width: 12px;
   height: 12px;
   background-color: #f16d7f;
+  margin-right: 37px;
 }
 .propeties__colors-item_yellow {
   background-color: yellow;
@@ -1102,10 +1109,6 @@ body {
 .propeties__colors-item_blue {
   background-color: blue;
 }
-.propeties__colors-text_drop {
-  padding-left: 37px;
-}
-
 .content {
   display: flex;
   flex-direction: column;
