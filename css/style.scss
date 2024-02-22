@@ -1213,7 +1213,10 @@ body {
     // position: relative;
 }
 
+// Описание товара карточка
 .propeties {
+    height: 690px;
+
     &__text {
         width: 620px;
         text-align: center;
@@ -1305,7 +1308,6 @@ body {
 
     &__details {
         position: relative;
-
     }
 
     &__summary {
@@ -1364,9 +1366,24 @@ body {
     &__colors-item_blue {
         background-color: blue;
     }
+}
 
-    &__colors-text_drop {
-        // padding-left: 37px;
+// блок вам тоже может понравится
+.like {
+    padding-bottom: 72px
+}
+
+.like-title {
+    padding-top: 120px;
+    padding-bottom: 72px;
+    text-align: center;
+
+    &__head {
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #4d4d4d;
     }
 }
 

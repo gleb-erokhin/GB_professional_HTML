@@ -990,6 +990,9 @@ body {
   height: 777px;
 }
 
+.propeties {
+  height: 690px;
+}
 .propeties__text {
   width: 620px;
   text-align: center;
@@ -1109,6 +1112,24 @@ body {
 .propeties__colors-item_blue {
   background-color: blue;
 }
+
+.like {
+  padding-bottom: 72px;
+}
+
+.like-title {
+  padding-top: 120px;
+  padding-bottom: 72px;
+  text-align: center;
+}
+.like-title__head {
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #4d4d4d;
+}
+
 .content {
   display: flex;
   flex-direction: column;
