@@ -1310,8 +1310,22 @@ body {
 
     &__summary {
         display: flex;
+        cursor: pointer;
     }
 
+    // основное выпадающее меню, позиция чтобы над всеми и белый фон
+    &__drop {
+        display: flex;
+        border: 1px solid #eaeaea;
+        width: 144px;
+
+        position: absolute;
+        z-index: 1;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    // блок с цветом текстом и fa элементом
     &__colors {
         display: flex;
         align-items: center;
@@ -1320,16 +1334,29 @@ body {
         border: 1px solid #eaeaea;
         width: 144px;
     }
-    
-    &__colors-item_ab {
-            position: absolute;
 
-        }
+    // чтобы небыло горизонтальных линий
+    &__colors_items {
+        border: none;
+        justify-content: flex-start;
+    }
 
     &__colors-item {
         width: 12px;
         height: 12px;
         background-color: $colorPink;
+    }
+
+    &__colors-item_yellow {
+        background-color: yellow;
+    }
+
+    &__colors-item_blue {
+        background-color: blue;
+    }
+
+    &__colors-text_drop {
+        padding-left: 37px;
     }
 }
 
