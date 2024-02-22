@@ -1315,15 +1315,14 @@ body {
     &__colors {
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        padding: 10px 14px;
+        justify-content: space-between;
+        padding: 10px 12px;
         border: 1px solid #eaeaea;
         width: 144px;
     }
     
     &__colors-item_ab {
             position: absolute;
-            z-index: 100;
 
         }
 

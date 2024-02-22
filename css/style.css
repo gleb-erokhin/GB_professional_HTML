@@ -1072,14 +1072,13 @@ body {
 .propeties__colors {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 10px 14px;
+  justify-content: space-between;
+  padding: 10px 12px;
   border: 1px solid #eaeaea;
   width: 144px;
 }
 .propeties__colors-item_ab {
   position: absolute;
-  z-index: 100;
 }
 .propeties__colors-item {
   width: 12px;
