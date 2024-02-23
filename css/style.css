@@ -1255,11 +1255,11 @@ body {
   pointer-events: none;
 }
 .products-item__card_mod {
-  top: 150px;
+  top: 48px;
   width: 50%;
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 8px;
   position: absolute;
 }
 .products-item__link {
@@ -1274,6 +1274,10 @@ body {
   pointer-events: all;
   transition: transform 0.5s ease-in-out;
   top: 15px;
+}
+.products-item__link_mod {
+  padding: 12px 20px;
+  font-size: 20px;
 }
 .products-item__link:hover {
   transform: scale(1.1);
