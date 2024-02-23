@@ -187,6 +187,9 @@ body {
 .drop[open] .drop__summary {
   color: #ffffff;
 }
+.drop[open] .drop__summary_pink {
+  color: #f16d7f;
+}
 .drop_account {
   width: 130px;
   height: 38px;

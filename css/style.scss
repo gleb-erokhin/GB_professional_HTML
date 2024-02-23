@@ -236,6 +236,10 @@ body {
         color: $colortWite;
     }
 
+    &[open] .drop__summary_pink {
+        color: $colorPink;
+    }
+
     &_account {
         width: 130px;
         height: 38px;
