@@ -196,6 +196,10 @@ body {
         cursor: pointer;
     }
 
+    &__cart-summary {
+        display: flex;
+    }
+
     // модификатор стиля кнопки Browse
     &_browse {
         background-color: $bgColorMain;
@@ -229,11 +233,7 @@ body {
 
     // модификатор изменения цвета при открытии кнопки Обзор
     &[open] .drop__summary {
-        color: $colorPink;
-    }
-
-    &[open] {
-        background-color: $bgColorMain;
+        color: $colortWite;
     }
 
     &_account {
@@ -242,6 +242,11 @@ body {
         background-color: $colorPink;
         color: $colortWite;
         font-size: 15px;
+    }
+
+    &__cart {
+        width: 0;
+        height: 0;
     }
 
     // стили выпадающего меню по кнопке Аккаунт
@@ -1242,7 +1247,7 @@ body {
 
     &__pink {
         width: 63px;
-        border-bottom: 3px solid $colorPink
+        border-bottom: 3px solid $colorPink;
     }
 
     &__head {
@@ -1356,7 +1361,6 @@ body {
         height: 12px;
         background-color: $colorPink;
         margin-right: 37px;
-
     }
 
     &__colors-item_yellow {
@@ -1370,7 +1374,7 @@ body {
 
 // блок вам тоже может понравится
 .like {
-    padding-bottom: 72px
+    padding-bottom: 72px;
 }
 
 .like-title {
@@ -1411,11 +1415,11 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 21px;
 
-    &>div:nth-child(4) {
+    & > div:nth-child(4) {
         grid-row: 2 / 4;
     }
 
-    &>div:nth-child(1) {
+    & > div:nth-child(1) {
         grid-row: 1 / 3;
     }
 

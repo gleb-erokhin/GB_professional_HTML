@@ -156,6 +156,9 @@ body {
   gap: 8px;
   cursor: pointer;
 }
+.drop__cart-summary {
+  display: flex;
+}
 .drop_browse {
   background-color: #e8e8e8;
   background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
@@ -182,10 +185,7 @@ body {
   flex-direction: column;
 }
 .drop[open] .drop__summary {
-  color: #f16d7f;
-}
-.drop[open] {
-  background-color: #e8e8e8;
+  color: #ffffff;
 }
 .drop_account {
   width: 130px;
@@ -193,6 +193,10 @@ body {
   background-color: #f16d7f;
   color: #ffffff;
   font-size: 15px;
+}
+.drop__cart {
+  width: 0;
+  height: 0;
 }
 .drop__items_account {
   padding: 20px 17px;
