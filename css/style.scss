@@ -1540,6 +1540,16 @@ body {
         pointer-events: none;
     }
 
+    &__card_mod {
+        top: 150px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        position: absolute;
+
+    }
+
     &__link {
         display: flex;
         align-items: center;

@@ -1254,6 +1254,14 @@ body {
   justify-content: center;
   pointer-events: none;
 }
+.products-item__card_mod {
+  top: 150px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  position: absolute;
+}
 .products-item__link {
   display: flex;
   align-items: center;
